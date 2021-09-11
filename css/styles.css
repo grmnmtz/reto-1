@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-.frequency {
+.frequency-posts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,14 +21,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 100%;
+  border: 0.5px solid black;
 }
 
-.frequency h1 {
+.frequency-posts h1 {
   width: 15%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.frequency .options {
+.frequency-posts .options {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,7 +39,7 @@
   width: 60%;
 }
 
-.frequency .options ul {
+.frequency-posts .options ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,9 +54,26 @@
           box-sizing: border-box;
 }
 
-.frequency .options ul li {
+.frequency-posts .options ul li {
   display: inline;
   margin: 0 25px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.frequency-posts .options ul li a button {
+  background: transparent;
+  border: none;
+  color: #3d3d3d;
+  font-size: 16px;
+  padding: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10%;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.frequency-posts .options ul li a button:hover {
+  background: #dddeee;
+  color: #3b49df;
 }
 /*# sourceMappingURL=styles.css.map */
