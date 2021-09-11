@@ -5,51 +5,7 @@
           box-sizing: border-box;
 }
 
-.container {
-  padding: 0 16px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1600px;
-}
 
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  scroll-behavior: smooth;
-  font-family: "Segoe UI", "Roboto", sans-serif;
-  min-height: 100vh;
-}
-
-.main-header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  border-bottom: 1px solid #bdbdbd;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #ffffff;
-}
 
 .navbar .left-items {
   display: -webkit-box;
@@ -231,5 +187,77 @@ main {
 
 .sidebar-left .left-card div {
   padding: 20px;
+}
+
+.frequency-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  border: 0.5px solid black;
+}
+
+.frequency-posts h1 {
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.frequency-posts .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+}
+
+.frequency-posts .options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.frequency-posts .options ul li {
+  display: inline;
+  margin: 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.frequency-posts .options ul li a button {
+  background: transparent;
+  border: none;
+  color: #3d3d3d;
+  font-size: 16px;
+  padding: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10%;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.frequency-posts .options ul li a button:hover {
+  background: #dddeee;
+  color: #3b49df;
 }
 /*# sourceMappingURL=styles.css.map */
