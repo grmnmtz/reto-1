@@ -3,3 +3,116 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.main-header {
+  position: sticky;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  background-color: #ffffff;
+
+  .left-items {
+    display: flex;
+    position: relative;
+
+    .search-form {
+      position: relative;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      border: 1px solid #bdbdbd;
+      box-shadow: none;
+      padding: 7px 8px;
+      margin: 12px 0px;
+      height: 40px;
+      width: 420px;
+      transition-duration: 0.1s;
+    }
+
+    .input-button {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      padding: 8px 8px;
+      height: 40px;
+      width: 32px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+
+  .right-items {
+    .links-nav {
+      list-style: none;
+
+      li {
+        display: inline-block;
+
+        .login-button {
+          text-decoration: none;
+          color: #323ec3;
+          background-color: #ffffff;
+          border-radius: 5px;
+          border-width: 0px;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 700;
+          padding: 8px 16px;
+          transition-duration: 0.3s;
+        }
+        .create-button {
+          text-decoration: none;
+          background-color: #3b49df;
+          color: #ffffff;
+          border-radius: 5px;
+          border-width: 0px;
+          font-size: 16px;
+          font-weight: 700;
+          text-align: center;
+          margin-left: 10px;
+          padding: 8px 16px;
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+}
+
+.right-items .links-nav li .login-button:hover {
+  background-color: #f6f6f6;
+}
+
+.right-items .links-nav li .create-button:hover {
+  background-color: #323ebe;
+}
+
+.main-content {
+  background-color: aquamarine;
+  height: 250vh;
+}
+
+.main-header .navbar .left-items .search-form:focus {
+  background-color: #ffffff;
+  border: 2px solid #4150f5;
+  border-radius: none;
+  outline: none;
+}
