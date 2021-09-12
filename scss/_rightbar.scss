@@ -120,12 +120,20 @@
 
 .right-card-container-4 {
   margin-top: 20px;
-  height: 200px;
-  background-color: aquamarine;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
   .container-4-header {
-    .container-4-title {
-      margin: 10px 0 10px 0;
-      font-size: 240px;
+    padding: 20px 0 30px 10px;
+    .container-4-tittle {
+      font-size: 18px;
+      font-weight: 600;
     }
+  }
+  .right-card-2-content {
+    padding: 20px;
+    border-bottom: none;
   }
 }

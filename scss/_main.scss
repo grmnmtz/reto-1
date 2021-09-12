@@ -34,13 +34,13 @@ main {
 }
 
 .sidebar-left {
-  background-color: brown;
+  background-color: transparent;
   flex: 1;
   @include flexColumns();
 }
 
 .articles {
-  background-color: blueviolet;
+  background-color: transparent;
   flex: 2;
   margin: 0 20px;
   @include flexColumns();
