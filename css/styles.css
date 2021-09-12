@@ -400,27 +400,27 @@ main {
   list-style: none;
 }
 
-.publications .card .white-canvas .author-photo-info .info-author ul li .release-date {
-  color: #585555;
-}
-
-.publications .card .white-canvas .author-photo-info .info-author ul li .release-date a .author-name-button {
+.publications .card .white-canvas .author-photo-info .info-author ul li .button1 .author-name-button {
   background: #dddeee;
   border: none;
   color: #585555;
-  font-size: 25px;
-  padding: 16px 16px 16px 16px;
+  font-size: 14px;
+  padding: 12px;
   text-align: center;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
   border-radius: 10%;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
 }
 
-.publications .card .white-canvas .author-photo-info .info-author ul li .release-date a .save-button:hover {
-  background: #585555;
-  color: #4444;
+.publications .card .white-canvas .author-photo-info .info-author ul li .button2 .release-date-button {
+  background: transparent;
+  border: none;
+  color: #585555;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author ul li .button2 .release-date-button:hover {
+  color: black;
 }
 
 .publications .card .white-canvas .title-tags-article {
@@ -504,7 +504,13 @@ main {
   display: inline;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .reactions-comments-buttons li .reaction-button .release-date-button {
+  background: transparent;
+  border: none;
+  color: #585555;
+}
+
+.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -515,15 +521,15 @@ main {
   border: purple 0.5px solid;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons {
   list-style: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons li {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons li {
   display: inline;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons li a .save-button {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons li a .save-button {
   background: #cec8c8;
   border: none;
   color: #585555;
@@ -534,12 +540,12 @@ main {
           transition-duration: 0.4s;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons li a .save-button:hover {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons li a .save-button:hover {
   background: #bdbdbd;
   color: #090909;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons .reading-time {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons .reading-time {
   color: #585555;
 }
 /*# sourceMappingURL=styles.css.map */
