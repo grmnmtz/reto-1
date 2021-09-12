@@ -142,15 +142,6 @@ main {
   padding-top: 16px;
 }
 
-.sidebar-left {
-  // max-width: 300px;
-  // height: 800px;
-  background-color: brown;
-  flex: 1;
-  min-height: 700px;
-  @include flexColumns();
-}
-
 .articles {
   // max-width: 600px;
   // width: 600px;
@@ -170,6 +161,89 @@ main {
   @include flexColumns();
 }
 
-.sidebar-left .left-card div {
-  padding: 20px;
+
+//Aurora
+@mixin fontP() {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17.5px;
+  text-decoration: none;
+}
+
+@mixin btnP() {
+  min-height: 40px;
+  min-width: 220px;
+  padding-left: 40px;
+  padding-top: 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar-left {
+  // max-width: 300px;
+  // height: 800px;
+  //border:solid 1px brown;
+  flex: 1;
+  min-height: 700px;
+  @include flexColumns();
+}
+
+.left-card{
+ padding: 0px;
+ background-color: white;
+ border-radius: 10px;
+ //border:solid 1px blue;
+}
+
+.contIntro{
+  background-color: white;
+  //border:solid 1px red;
+  padding: 0px;
+  min-height: 208px;
+  border-radius: 10px;
+}
+
+.contHeadIntro{
+  min-width: 79.2px;
+  margin: 20px;
+  //border:solid 1px pink;
+}
+
+#IntroLink{
+  color: #3B49DF;
+  @include fontP();
+}
+
+p1{
+  @include fontP();
+  color: black;
+}
+
+.contBodyIntro{
+  margin: 20px;
+  color: #57577B;
+}
+
+.contBotonesIntro{
+  //border:solid 1px pink;
+  min-height: 110px;
+  min-width: 88px;
+  @include flexColumns();
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+#btnAcount{
+  background-color: #3B49DF;
+  color:white;
+  @include btnP();
+}
+
+#btnLogIn{
+  //border: black 1px solid;
+  @include btnP();
+  padding-left: 90px;
+  color:#3B49DF;
+  font-weight: 30px;
 }
