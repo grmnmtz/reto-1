@@ -240,9 +240,50 @@ $testBorder : 0.5px solid black ;
 
 }
 
-@ mixin generic-article-card {
+@mixin publications{
+  display: flex;
+  flex-direction: column;
+  width : 100%;
+
+
+}
+
+@mixin image-of-the-week{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+@mixin generic-article-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+}
+
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+@mixin white-canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  
+}
+
+@mixin authorinfo-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  
 }
