@@ -1,0 +1,104 @@
+.right-card-1 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  .right-card-header {
+    margin-bottom: 20px;
+  }
+  .right-card-text {
+    p {
+      font-size: 18px;
+      font-weight: 100;
+    }
+  }
+  .right-card-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3b49e1;
+  }
+
+  .right-card-footer {
+    margin-top: 10px;
+    .right-card-footer-link {
+      text-decoration: none;
+      font-size: 18px;
+      color: #3b49e1;
+    }
+  }
+}
+
+.right-card-2 {
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.right-card-2-heading {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  .right-card-2-h3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .right-card-2-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3b49e2;
+  }
+}
+
+.right-card-2-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  a {
+    text-decoration: none;
+  }
+  .card-2-p-container {
+    .paragraph-1 {
+      font-size: 20px;
+      font-weight: 100;
+      line-height: 1.5;
+      color: rgb(68, 68, 68);
+      text-decoration: none;
+    }
+
+    .paragraph-2 {
+      font-size: 20px;
+      font-weight: 100;
+      line-height: 1.5;
+      color: rgb(143, 143, 143);
+      padding-top: 10px;
+      text-decoration: none;
+    }
+  }
+}
+
+.right-card-2-footer {
+  text-align: center;
+  padding: 20px;
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+}
+
+.right-card-2-content .link-container .card-2-p-container .paragraph-1:hover {
+  color: #3b49e2;
+}
+
+.right-card-2-footer a:hover {
+  color: #3b49e2;
+}
