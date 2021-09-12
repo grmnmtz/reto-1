@@ -239,3 +239,10 @@ $testBorder : 0.5px solid black ;
   }
 
 }
+
+@ mixin generic-article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
