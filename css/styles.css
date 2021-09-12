@@ -342,6 +342,7 @@ main {
           align-items: flex-start;
   width: 100%;
   border: 0.5px solid black;
+  background: white;
 }
 
 .publications .card .white-canvas {
@@ -492,25 +493,46 @@ main {
           justify-content: space-between;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments {
   border: teal 0.5px solid;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .reactions-comments-buttons {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons {
   list-style: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .reactions-comments-buttons li {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li {
   display: inline;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .reactions-comments-buttons li .reaction-button .release-date-button {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .reaction-button {
+  text-decoration: none;
   background: transparent;
+  padding: 14px;
+  border-radius: 5%;
   border: none;
   color: #585555;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .reaction-button:hover {
+  background: #f6f6f6;
+  color: black;
+}
+
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .comment-button {
+  text-decoration: none;
+  background: transparent;
+  padding: 14px;
+  border-radius: 5%;
+  color: #585555;
+}
+
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .comment-button:hover {
+  background: #f6f6f6;
+  color: black;
+}
+
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -521,15 +543,20 @@ main {
   border: purple 0.5px solid;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons {
   list-style: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons li {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li {
   display: inline;
+  list-style: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons li a .save-button {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li .reading-time {
+  color: #585555;
+}
+
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li .reading-time a .save-button {
   background: #cec8c8;
   border: none;
   color: #585555;
@@ -540,12 +567,8 @@ main {
           transition-duration: 0.4s;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons li a .save-button:hover {
+.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li .reading-time a .save-button:hover {
   background: #bdbdbd;
   color: #090909;
-}
-
-.publications .card .white-canvas .reactions-to-article .reactions-comments .time-save .time-save-buttons .reading-time {
-  color: #585555;
 }
 /*# sourceMappingURL=styles.css.map */

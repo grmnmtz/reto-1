@@ -265,6 +265,7 @@ $testBorder : 0.5px solid black ;
     align-items: flex-start;
     width: 100%;
     border:$testBorder;
+    background: white;
 
     .white-canvas{
       display: flex;
@@ -401,7 +402,7 @@ $testBorder : 0.5px solid black ;
           justify-content: space-between;
 
 
-          .reactions-comments{
+          .reactions-and-comments{
             border: teal 0.5px solid;
             .reactions-comments-buttons{
               list-style: none;
@@ -409,19 +410,38 @@ $testBorder : 0.5px solid black ;
                 display: inline;
 
                 .reaction-button{
-                  .release-date-button{
+                    text-decoration: none;
                     background: transparent;
+                    padding: 14px;
+                    border-radius: 5%;
                     border: none;
                     color: #585555;
+                }
 
+                .reaction-button:hover{
+                  background: #f6f6f6;
+                  color: black;
+                }
+
+                .comment-button{
+                  text-decoration: none;
+                  background: transparent;
+                  padding: 14px;
+                  border-radius: 5%;
+                  color: #585555;
+                }
+
+                .comment-button:hover{
+                  background: #f6f6f6;
+                  color: black;
                 }
 
 
-              }
+              
             }
           }
 
-          .time-save{
+          .time-save-options{
             display: flex;
             flex-direction: row;
             border: purple 0.5px solid;
@@ -430,6 +450,11 @@ $testBorder : 0.5px solid black ;
               list-style: none;
               li{
                 display: inline;
+                list-style: none;
+
+                .reading-time{
+                  color: #585555;
+
                 a{
 
                   .save-button{
@@ -452,8 +477,7 @@ $testBorder : 0.5px solid black ;
               
               }
 
-              .reading-time{
-                color: #585555;
+              
               }
 
             }
@@ -523,6 +547,9 @@ $testBorder : 0.5px solid black ;
 // @mixin authorphoto-style{
   
 // }
+
+
+
    }
   }
 }
