@@ -210,3 +210,33 @@ main {
 .footer-image {
   margin: 20px 0 20px 0px;
 }
+
+.right-card-1 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  .right-card-header {
+    margin-bottom: 20px;
+  }
+  .right-card-text {
+    p {
+      font-size: 18px;
+      font-weight: 100;
+    }
+  }
+  .right-card-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3b49e1;
+  }
+
+  .right-card-footer {
+    margin-top: 10px;
+    .right-card-footer-link {
+      text-decoration: none;
+      font-size: 18px;
+      color: #3b49e1;
+    }
+  }
+}
