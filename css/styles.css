@@ -389,11 +389,38 @@ main {
 .publications .card .white-canvas .author-photo-info .author-photo .author-link .author-image {
   border-radius: 50%;
   height: auto;
-  width: 16px;
+  width: 45px;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author {
   border: 0.5px solid black;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author ul li {
+  list-style: none;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author ul li .release-date {
+  color: #585555;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author ul li .release-date a .author-name-button {
+  background: #dddeee;
+  border: none;
+  color: #585555;
+  font-size: 25px;
+  padding: 16px 16px 16px 16px;
+  text-align: center;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10%;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author ul li .release-date a .save-button:hover {
+  background: #585555;
+  color: #4444;
 }
 
 .publications .card .white-canvas .title-tags-article {
@@ -407,30 +434,51 @@ main {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 75%;
+  width: 90%;
 }
 
-.publications .card .white-canvas .title-tags-article .title-article {
+.publications .card .white-canvas .title-tags-article .article-title {
   border: blue 0.5px solid;
 }
 
-.publications .card .white-canvas .title-tags-article .tags-bar {
+.publications .card .white-canvas .title-tags-article .article-title .link-article {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.publications .card .white-canvas .title-tags-article .article-title .link-article:hover {
+  color: #323ebe;
+}
+
+.publications .card .white-canvas .tags-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: red 0.5px solid;
 }
 
-.publications .card .white-canvas .title-tags-article .tags-bar .tags {
+.publications .card .white-canvas .tags-bar .tags-list {
   border: green 0.5px solid;
 }
 
-.publications .card .white-canvas .title-tags-article .tags-bar .tags li {
+.publications .card .white-canvas .tags-bar .tags-list li {
   display: inline;
   list-style: none;
+  color: #585555;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article {
+.publications .card .white-canvas .tags-bar .tags-list li a {
+  color: #585555;
+  text-decoration: none;
+}
+
+.publications .card .white-canvas .tags-bar .tags-list li a:hover {
+  color: black;
+}
+
+.publications .card .white-canvas .reactions-to-article {
   border: orange 0.5px solid;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -444,19 +492,19 @@ main {
           justify-content: space-between;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article .reactions-comments {
+.publications .card .white-canvas .reactions-to-article .reactions-comments {
   border: teal 0.5px solid;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article .reactions-comments .reactions-comments-buttons {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .reactions-comments-buttons {
   list-style: none;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article .reactions-comments .reactions-comments-buttons li {
+.publications .card .white-canvas .reactions-to-article .reactions-comments .reactions-comments-buttons li {
   display: inline;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article .time-save {
+.publications .card .white-canvas .reactions-to-article .time-save {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,11 +515,31 @@ main {
   border: purple 0.5px solid;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article .time-save .time-save-buttons {
+.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons {
   list-style: none;
 }
 
-.publications .card .white-canvas .title-tags-article .reactions-to-article .time-save .time-save-buttons li {
+.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons li {
   display: inline;
+}
+
+.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons li a .save-button {
+  background: #cec8c8;
+  border: none;
+  color: #585555;
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 10%;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons li a .save-button:hover {
+  background: #bdbdbd;
+  color: #090909;
+}
+
+.publications .card .white-canvas .reactions-to-article .time-save .time-save-buttons .reading-time {
+  color: #585555;
 }
 /*# sourceMappingURL=styles.css.map */

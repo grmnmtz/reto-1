@@ -292,7 +292,7 @@ $testBorder : 0.5px solid black ;
             .author-image{
               border-radius: 50%;
               height: auto;
-              width: 16px;
+              width: 45px;
 
             }
           }
@@ -301,34 +301,89 @@ $testBorder : 0.5px solid black ;
         .info-author{
           border:$testBorder;
           // width: 12%;
+
+          ul{
+            li{
+              list-style: none;
+              .release-date{
+                color: #585555;
+
+                a{
+                  .author-name-button{
+                      background: #dddeee;
+                      border:none;
+                      color: #585555;
+                      font-size: 25px;
+                      padding: 16px 16px 16px 16px;
+                      text-align: center;
+                      display: inline-block;
+                      font-family: Arial, Helvetica, sans-serif;
+                      border-radius: 10%;
+                      transition-duration: 0.4s;
+                    }
+          
+                  .save-button:hover{
+                      background: #585555;
+                      color: #4444;
+        
+                  }
+                }
+              }
+            }
+          }
         }
         
       }
-
-
 
       .title-tags-article{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 75%;
-
-        .title-article{
+        width: 90%;   
+        
+        .article-title{
           border: blue 0.5px solid;
-        }
 
-        .tags-bar{
+          .link-article{
+            text-decoration: none;
+            color: black;
+            transition: 0.4s;
+          }
+
+          .link-article:hover{
+            color: #323ebe;
+          }
+
+        }
+      }
+
+
+      .tags-bar{
           display: flex;
           border: red 0.5px solid;
 
-          .tags{
+        .tags-list{
             border: green 0.5px solid;
 
-            li{
-              display: inline;
-              list-style: none;
+        li{
+          display: inline;
+          list-style: none;
+          color: #585555;
+              
+            a{
+            color: #585555;
+            text-decoration: none;
             }
-          }
+
+            a:hover{
+              color: black;
+            }
+
+
+
+           }
+          
+        }
 
         }
 
@@ -358,6 +413,30 @@ $testBorder : 0.5px solid black ;
               list-style: none;
               li{
                 display: inline;
+                a{
+
+                  .save-button{
+                    background: #cec8c8;
+                    border:none;
+                    color: #585555;
+                    font-size: 16px;
+                    padding: 16px;
+                    // font-family: Arial, Helvetica, sans-serif;
+                    border-radius: 10%;
+                    transition-duration: 0.4s;
+                  }
+        
+                  .save-button:hover{
+                    background: #bdbdbd;
+                    color: #090909
+                  }
+
+                }
+              
+              }
+
+              .reading-time{
+                color: #585555;
               }
 
             }
@@ -365,20 +444,12 @@ $testBorder : 0.5px solid black ;
 
         }
 
-
-
-
       }
       
     }
-
-
-
-    
   }
 
 
-}
 
 
 // @mixin image-of-the-week-style{
