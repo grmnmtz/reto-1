@@ -26,6 +26,7 @@ body {
   scroll-behavior: smooth;
   font-family: "Segoe UI", "Roboto", sans-serif;
   min-height: 100vh;
+  background-color: #EFEFEF;
 }
 
 .main-header {
@@ -207,6 +208,7 @@ main {
 .left-card{
  padding-left: 90px;
  border-radius: 10px;
+ 
  //border:solid 1px blue;
 }
 
@@ -264,26 +266,27 @@ p1{
 }
 
 
-//Segunda Tarjeta
+//Segunda Tarjeta, Tercera Tarjeta
 .contDevCom{
+  
   //border:solid 1px pink;
   padding: 10px;
   padding-left: 0px;
 }
 
-.cont1{
+.cont1, .Ocont0{
  @include titleF();
  padding-top: 15px;
  padding-bottom: 10px;
 }
 
-.cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8, .cont9, .cont10, .cont11, .cont12{
+.cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8, .cont9, .cont10, .cont11, .cont12, .Ocont1, .Ocont2, .Ocont3{
   padding: 10px 20px;
   //border: #323ebe solid 1px;
   @include flexRows();
 }
 
-#icon1,#icon2,#icon3,#icon4,#icon5,#icon6,#icon7,#icon8,#icon9,#icon11{
+#icon1,#icon2,#icon3,#icon4,#icon5,#icon6,#icon7,#icon8,#icon9,#icon11, #Oicon1, #Oicon2, #Oicon3{
   margin-right: 10px;
 }
 
@@ -291,4 +294,17 @@ p1{
   height: 24px;
   width: 24px;
 }
+
+//Cuarta Tarjeta
+.LBcontRedS{
+@include flexRows();
+padding-top: 40px;
+width: 180px;
+height: 70px;
+justify-content: space-between;
+fill: #7c7a7a;
+}
+
+
+
 

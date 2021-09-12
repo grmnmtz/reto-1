@@ -23,6 +23,7 @@ body {
   scroll-behavior: smooth;
   font-family: "Segoe UI", "Roboto", sans-serif;
   min-height: 100vh;
+  background-color: #EFEFEF;
 }
 
 .main-header {
@@ -318,7 +319,7 @@ p1 {
   padding-left: 0px;
 }
 
-.cont1 {
+.cont1, .Ocont0 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -327,7 +328,7 @@ p1 {
   padding-bottom: 10px;
 }
 
-.cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8, .cont9, .cont10, .cont11, .cont12 {
+.cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8, .cont9, .cont10, .cont11, .cont12, .Ocont1, .Ocont2, .Ocont3 {
   padding: 10px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,12 +345,35 @@ p1 {
           align-items: left;
 }
 
-#icon1, #icon2, #icon3, #icon4, #icon5, #icon6, #icon7, #icon8, #icon9, #icon11 {
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6, #icon7, #icon8, #icon9, #icon11, #Oicon1, #Oicon2, #Oicon3 {
   margin-right: 10px;
 }
 
 #icon10 {
   height: 24px;
   width: 24px;
+}
+
+.LBcontRedS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-top: 40px;
+  width: 180px;
+  height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  fill: #7c7a7a;
 }
 /*# sourceMappingURL=styles.css.map */
