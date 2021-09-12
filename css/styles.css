@@ -188,7 +188,6 @@ main {
 
 .articles {
   min-height: 350px;
-  background-color: blueviolet;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
