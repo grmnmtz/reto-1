@@ -229,14 +229,13 @@ main {
 }
 
 .left-card {
-  padding: 0px;
-  background-color: white;
+  padding-left: 90px;
   border-radius: 10px;
 }
 
 .contIntro {
   background-color: white;
-  padding: 0px;
+  padding-top: 1px;
   min-height: 208px;
   border-radius: 10px;
 }
@@ -312,5 +311,45 @@ p1 {
   padding-left: 90px;
   color: #3B49DF;
   font-weight: 30px;
+}
+
+.contDevCom {
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.cont1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8, .cont9, .cont10, .cont11, .cont12 {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6, #icon7, #icon8, #icon9, #icon11 {
+  margin-right: 10px;
+}
+
+#icon10 {
+  height: 24px;
+  width: 24px;
 }
 /*# sourceMappingURL=styles.css.map */
