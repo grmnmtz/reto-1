@@ -303,4 +303,175 @@ main {
   background: #dddeee;
   color: #3b49df;
 }
+
+.publications {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.publications .image-of-the-week {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.publications .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  border: 0.5px solid black;
+}
+
+.publications .card .white-canvas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 90%;
+  border: 0.5px solid black;
+}
+
+.publications .card .white-canvas .author-photo-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  border: 0.5px solid black;
+}
+
+.publications .card .white-canvas .author-photo-info .author-photo {
+  border: 0.5px solid black;
+  height: 25%;
+}
+
+.publications .card .white-canvas .author-photo-info .author-photo .author-link .author-image {
+  border-radius: 50%;
+  height: auto;
+  width: 16px;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author {
+  border: 0.5px solid black;
+}
+
+.publications .card .white-canvas .title-tags-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 75%;
+}
+
+.publications .card .white-canvas .title-tags-article .title-article {
+  border: blue 0.5px solid;
+}
+
+.publications .card .white-canvas .title-tags-article .tags-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: red 0.5px solid;
+}
+
+.publications .card .white-canvas .title-tags-article .tags-bar .tags {
+  border: green 0.5px solid;
+}
+
+.publications .card .white-canvas .title-tags-article .tags-bar .tags li {
+  display: inline;
+  list-style: none;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article {
+  border: orange 0.5px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article .reactions-comments {
+  border: teal 0.5px solid;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article .reactions-comments .reactions-comments-buttons {
+  list-style: none;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article .reactions-comments .reactions-comments-buttons li {
+  display: inline;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article .time-save {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: purple 0.5px solid;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article .time-save .time-save-buttons {
+  list-style: none;
+}
+
+.publications .card .white-canvas .title-tags-article .reactions-to-article .time-save .time-save-buttons li {
+  display: inline;
+}
 /*# sourceMappingURL=styles.css.map */

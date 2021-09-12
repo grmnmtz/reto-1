@@ -262,6 +262,8 @@ $testBorder : 0.5px solid black ;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
+    border:$testBorder;
 
     .white-canvas{
       display: flex;
@@ -270,27 +272,57 @@ $testBorder : 0.5px solid black ;
       align-items: center;
       width: 100%;
       height: 90%;
+      border:$testBorder;
 
 
-      .authorphoto-info{
+      .author-photo-info{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        width: 90%;
+        width: 100%;
+        border:$testBorder;
+
+        .author-photo{
+          border: $testBorder;
+          height: 25%;
+          // width: 8%;
+
+          .author-link{
+            .author-image{
+              border-radius: 50%;
+              height: auto;
+              width: 16px;
+
+            }
+          }
+        }
+
+        .info-author{
+          border:$testBorder;
+          // width: 12%;
+        }
+        
       }
 
 
 
-      .title-and-more{
+      .title-tags-article{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        height: 75%;
+
+        .title-article{
+          border: blue 0.5px solid;
+        }
 
         .tags-bar{
           display: flex;
+          border: red 0.5px solid;
 
           .tags{
+            border: green 0.5px solid;
 
             li{
               display: inline;
@@ -300,10 +332,37 @@ $testBorder : 0.5px solid black ;
 
         }
 
-        .reactions-bar{
-
+        .reactions-to-article{
+          border: orange 0.5px solid;
           display: flex;
           flex-direction: row;
+          justify-content: space-between;
+
+
+          .reactions-comments{
+            border: teal 0.5px solid;
+            .reactions-comments-buttons{
+              list-style: none;
+              li{
+                display: inline;
+              }
+            }
+          }
+
+          .time-save{
+            display: flex;
+            flex-direction: row;
+            border: purple 0.5px solid;
+
+            .time-save-buttons{
+              list-style: none;
+              li{
+                display: inline;
+              }
+
+            }
+          }
+
         }
 
 
