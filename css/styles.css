@@ -15,7 +15,6 @@ body {
           flex-direction: column;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
 }
 
 .container {
@@ -26,7 +25,6 @@ body {
 }
 
 .main-content {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +39,7 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 main {
@@ -52,7 +51,6 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  min-height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +67,6 @@ main {
 }
 
 .articles {
-  min-height: 350px;
   background-color: blueviolet;
   -webkit-box-flex: 2;
       -ms-flex: 2;
@@ -91,7 +88,7 @@ main {
 }
 
 .sidebar-right {
-  min-height: 800px;
+  min-height: 100%;
   background-color: transparent;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -109,10 +106,6 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.sidebar-left .left-card div {
-  padding: 20px;
 }
 
 .main-header {
@@ -374,6 +367,17 @@ main {
   padding: 3px 5px;
 }
 
+.right-card-container-4 {
+  margin-top: 20px;
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.right-card-container-4 .container-4-header .container-4-title {
+  margin: 10px 0 10px 0;
+  font-size: 240px;
+}
+
 .footer .footer-content {
   padding: 0 16px;
   background-color: #d6d6d7;
@@ -391,7 +395,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 300px;
+  min-height: 250px;
   margin: 0 auto;
 }
 

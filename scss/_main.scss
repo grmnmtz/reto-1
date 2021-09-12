@@ -11,7 +11,6 @@ body {
   flex-direction: column;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
 }
 
 .container {
@@ -22,12 +21,12 @@ body {
 }
 
 .main-content {
-  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
   padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 main {
@@ -37,12 +36,10 @@ main {
 .sidebar-left {
   background-color: brown;
   flex: 1;
-  min-height: 700px;
   @include flexColumns();
 }
 
 .articles {
-  min-height: 350px;
   background-color: blueviolet;
   flex: 2;
   margin: 0 20px;
@@ -50,12 +47,7 @@ main {
 }
 
 .sidebar-right {
-  min-height: 800px;
   background-color: transparent;
   flex: 1;
   @include flexColumns();
-}
-
-.sidebar-left .left-card div {
-  padding: 20px;
 }
