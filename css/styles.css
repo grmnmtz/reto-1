@@ -355,6 +355,10 @@ main {
   color: #3b49e2;
 }
 
+.right-card-2-content:hover {
+  background-color: #ffffff;
+}
+
 .right-card-2-footer a:hover {
   color: #3b49e2;
 }
