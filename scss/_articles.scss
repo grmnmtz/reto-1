@@ -1,0 +1,26 @@
+//Esto ira a articles _
+
+.article-1 {
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  .article-image {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  p {
+    color: black;
+  }
+}
+
+.promo-article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.promo-buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
