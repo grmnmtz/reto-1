@@ -401,10 +401,10 @@ main {
   list-style: none;
 }
 
-.publications .card .white-canvas .author-photo-info .info-author ul li .button1 .author-name-button {
-  background: #dddeee;
+.publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button {
+  background: transparent;
   border: none;
-  color: #585555;
+  color: #2c2a2a;
   font-size: 14px;
   padding: 12px;
   text-align: center;
@@ -414,13 +414,18 @@ main {
           transition-duration: 0.4s;
 }
 
-.publications .card .white-canvas .author-photo-info .info-author ul li .button2 .release-date-button {
+.publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button:hover {
+  background: #f6f6f6;
+  color: black;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author ul li .release-date-button {
   background: transparent;
   border: none;
   color: #585555;
 }
 
-.publications .card .white-canvas .author-photo-info .info-author ul li .button2 .release-date-button:hover {
+.publications .card .white-canvas .author-photo-info .info-author ul li .release-date-button:hover {
   color: black;
 }
 
@@ -532,7 +537,7 @@ main {
   color: black;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options {
+.publications .card .white-canvas .reactions-to-article .time-save-options {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -540,34 +545,33 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: purple 0.5px solid;
+  border: green solid 0.5px;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons {
+.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons {
   list-style: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li {
+.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li {
   display: inline;
-  list-style: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li .reading-time {
+.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .reading-time {
   color: #585555;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li .reading-time a .save-button {
+.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .save-button {
   background: #cec8c8;
   border: none;
   color: #585555;
   font-size: 16px;
-  padding: 16px;
+  padding: 8px;
   border-radius: 10%;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .time-save-options .time-save-buttons li .reading-time a .save-button:hover {
+.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .save-button:hover {
   background: #bdbdbd;
   color: #090909;
 }
