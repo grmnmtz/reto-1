@@ -249,7 +249,10 @@ main {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
+<<<<<<< HEAD
   padding: 15px;
+=======
+>>>>>>> dcec1c1ccc8fb8929a9dbce4c6ad990377f20e1b
 }
 
 .frequency-posts h3 {
