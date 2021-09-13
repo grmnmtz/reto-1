@@ -226,6 +226,541 @@ main {
   outline: none;
 }
 
+.sidebar-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-card {
+  padding-left: 0px;
+  border-radius: 10px;
+}
+
+.LBcontIntro {
+  background-color: white;
+  padding-top: 1px;
+  min-height: 208px;
+  border-radius: 10px;
+}
+
+.LBcontHeadIntro {
+  min-width: 80%;
+  margin: 20px;
+}
+
+.LBintroTxt {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+}
+
+#LBIntroLink, .LBpub {
+  color: #3B49DF;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.LBcontBodyIntro {
+  margin: 20px;
+  color: #57577B;
+}
+
+.LBcontBotonesIntro {
+  min-height: 110px;
+  min-width: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+#LBbtnAcount {
+  background-color: #3B49DF;
+  color: white;
+  min-height: 40px;
+  min-width: 220px;
+  padding-left: 40px;
+  padding-top: 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#LBbtnAcount:hover {
+  background-color: #2c38c0;
+}
+
+#LBbtnLogIn {
+  min-height: 40px;
+  min-width: 220px;
+  padding-left: 40px;
+  padding-top: 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 90px;
+  color: #3B49DF;
+}
+
+#LBbtnLogIn:hover {
+  background-color: #f1efef;
+}
+
+.LBcontDevCom {
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.LBcont1, .LBOcont0 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.LBcont2, .LBcont3, .LBcont4, .LBcont5, .LBcont6, .LBcont7, .LBcont8, .LBcont9, .LBcont10, .LBcont11, .LBcont12, .LBOcont1,
+.LBOcont2, .LBOcont3 {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+#LBicon1, #LBicon2, #LBicon3, #LBicon4, #LBicon5, #LBicon6, #LBicon7, #LBicon8, #LBicon9, #LBicon11, #LBOicon1, #LBOicon2, #LBOicon3 {
+  margin-right: 10px;
+}
+
+#LBicon10 {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.LBcont2:hover, .LBcont3:hover, .LBcont4:hover, .LBcont5:hover, .LBcont6:hover, .LBcont7:hover, .LBcont8:hover, .LBcont9:hover,
+.LBcont10:hover, .LBcont11:hover, .LBcont12:hover, .LBOcont1:hover, .LBOcont2:hover, .LBOcont3:hover {
+  background-color: #E3E3E3;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.LBcontRedS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 200px;
+  height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  fill: #7c7a7a;
+}
+
+#LBiconRS1:hover, #LBiconRS2:hover, #LBiconRS3:hover, #LBiconRS4:hover, #LBiconRS5:hover {
+  fill: #504f4f;
+  cursor: pointer;
+}
+
+.LBcontTags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 80%;
+}
+
+.LBheadTags {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.LBtags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 240px;
+  height: 360px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.LBTagCont1, .LBTagCont2, .LBTagCont3, .LBTagCont4, .LBTagCont5, .LBTagCont6, .LBTagCont7, .LBTagCont8, .LBTagCont9, .LBTagCont10,
+.LBTagCont11, .LBTagCont12, .LBTagCont13, .LBTagCont14, .LBTagCont15, .LBTagCont16, .LBTagCont17, .LBTagCont18, .LBTagCont19,
+.LBTagCont20, .LBTagCont21, .LBTagCont22, .LBTagCont23, .LBTagCont24, .LBTagCont25, .LBTagCont26, .LBTagCont27, .LBTagCont28,
+.LBTagCont29, .LBTagCont30 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 223px;
+  height: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  padding: 20px 10px 20px 0px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.LBTagBtn1, .LBTagBtn2, .LBTagBtn3, .LBTagBtn4, .LBTagBtn5, .LBTagBtn6, .LBTagBtn7, .LBTagBtn8, .LBTagBtn9, .LBTagBtn10,
+.LBTagBtn11, .LBTagBtn12, .LBTagBtn13, .LBTagBtn14, .LBTagBtn15, .LBTagBtn16, .LBTagBtn17, .LBTagBtn18, .LBTagBtn19, .LBTagBtn20,
+.LBTagBtn21, .LBTagBtn22, .LBTagBtn23, .LBTagBtn24, .LBTagBtn25, .LBTagBtn26, .LBTagBtn27, .LBTagBtn28, .LBTagBtn29,
+.LBTagBtn30 {
+  background-color: #EFEFEF;
+  color: #EFEFEF;
+  border-radius: 5px;
+}
+
+.LBTagCont1:hover .LBTagBtn1, .LBTagCont1:hover .LBTagBtn2, .LBTagCont1:hover .LBTagBtn3, .LBTagCont1:hover .LBTagBtn4, .LBTagCont1:hover .LBTagBtn5, .LBTagCont1:hover .LBTagBtn6, .LBTagCont1:hover .LBTagBtn7, .LBTagCont1:hover .LBTagBtn8, .LBTagCont1:hover .LBTagBtn9, .LBTagCont1:hover .LBTagBtn10,
+.LBTagCont1:hover .LBTagBtn11, .LBTagCont1:hover .LBTagBtn12, .LBTagCont1:hover .LBTagBtn13, .LBTagCont1:hover .LBTagBtn14, .LBTagCont1:hover .LBTagBtn15, .LBTagCont1:hover .LBTagBtn16, .LBTagCont1:hover .LBTagBtn17, .LBTagCont1:hover .LBTagBtn18, .LBTagCont1:hover .LBTagBtn19, .LBTagCont1:hover .LBTagBtn20,
+.LBTagCont1:hover .LBTagBtn21, .LBTagCont1:hover .LBTagBtn22, .LBTagCont1:hover .LBTagBtn23, .LBTagCont1:hover .LBTagBtn24, .LBTagCont1:hover .LBTagBtn25, .LBTagCont1:hover .LBTagBtn26, .LBTagCont1:hover .LBTagBtn27, .LBTagCont1:hover .LBTagBtn28, .LBTagCont1:hover .LBTagBtn29,
+.LBTagCont1:hover .LBTagBtn30, .LBTagCont2:hover .LBTagBtn1, .LBTagCont2:hover .LBTagBtn2, .LBTagCont2:hover .LBTagBtn3, .LBTagCont2:hover .LBTagBtn4, .LBTagCont2:hover .LBTagBtn5, .LBTagCont2:hover .LBTagBtn6, .LBTagCont2:hover .LBTagBtn7, .LBTagCont2:hover .LBTagBtn8, .LBTagCont2:hover .LBTagBtn9, .LBTagCont2:hover .LBTagBtn10,
+.LBTagCont2:hover .LBTagBtn11, .LBTagCont2:hover .LBTagBtn12, .LBTagCont2:hover .LBTagBtn13, .LBTagCont2:hover .LBTagBtn14, .LBTagCont2:hover .LBTagBtn15, .LBTagCont2:hover .LBTagBtn16, .LBTagCont2:hover .LBTagBtn17, .LBTagCont2:hover .LBTagBtn18, .LBTagCont2:hover .LBTagBtn19, .LBTagCont2:hover .LBTagBtn20,
+.LBTagCont2:hover .LBTagBtn21, .LBTagCont2:hover .LBTagBtn22, .LBTagCont2:hover .LBTagBtn23, .LBTagCont2:hover .LBTagBtn24, .LBTagCont2:hover .LBTagBtn25, .LBTagCont2:hover .LBTagBtn26, .LBTagCont2:hover .LBTagBtn27, .LBTagCont2:hover .LBTagBtn28, .LBTagCont2:hover .LBTagBtn29,
+.LBTagCont2:hover .LBTagBtn30, .LBTagCont3:hover .LBTagBtn1, .LBTagCont3:hover .LBTagBtn2, .LBTagCont3:hover .LBTagBtn3, .LBTagCont3:hover .LBTagBtn4, .LBTagCont3:hover .LBTagBtn5, .LBTagCont3:hover .LBTagBtn6, .LBTagCont3:hover .LBTagBtn7, .LBTagCont3:hover .LBTagBtn8, .LBTagCont3:hover .LBTagBtn9, .LBTagCont3:hover .LBTagBtn10,
+.LBTagCont3:hover .LBTagBtn11, .LBTagCont3:hover .LBTagBtn12, .LBTagCont3:hover .LBTagBtn13, .LBTagCont3:hover .LBTagBtn14, .LBTagCont3:hover .LBTagBtn15, .LBTagCont3:hover .LBTagBtn16, .LBTagCont3:hover .LBTagBtn17, .LBTagCont3:hover .LBTagBtn18, .LBTagCont3:hover .LBTagBtn19, .LBTagCont3:hover .LBTagBtn20,
+.LBTagCont3:hover .LBTagBtn21, .LBTagCont3:hover .LBTagBtn22, .LBTagCont3:hover .LBTagBtn23, .LBTagCont3:hover .LBTagBtn24, .LBTagCont3:hover .LBTagBtn25, .LBTagCont3:hover .LBTagBtn26, .LBTagCont3:hover .LBTagBtn27, .LBTagCont3:hover .LBTagBtn28, .LBTagCont3:hover .LBTagBtn29,
+.LBTagCont3:hover .LBTagBtn30, .LBTagCont4:hover .LBTagBtn1, .LBTagCont4:hover .LBTagBtn2, .LBTagCont4:hover .LBTagBtn3, .LBTagCont4:hover .LBTagBtn4, .LBTagCont4:hover .LBTagBtn5, .LBTagCont4:hover .LBTagBtn6, .LBTagCont4:hover .LBTagBtn7, .LBTagCont4:hover .LBTagBtn8, .LBTagCont4:hover .LBTagBtn9, .LBTagCont4:hover .LBTagBtn10,
+.LBTagCont4:hover .LBTagBtn11, .LBTagCont4:hover .LBTagBtn12, .LBTagCont4:hover .LBTagBtn13, .LBTagCont4:hover .LBTagBtn14, .LBTagCont4:hover .LBTagBtn15, .LBTagCont4:hover .LBTagBtn16, .LBTagCont4:hover .LBTagBtn17, .LBTagCont4:hover .LBTagBtn18, .LBTagCont4:hover .LBTagBtn19, .LBTagCont4:hover .LBTagBtn20,
+.LBTagCont4:hover .LBTagBtn21, .LBTagCont4:hover .LBTagBtn22, .LBTagCont4:hover .LBTagBtn23, .LBTagCont4:hover .LBTagBtn24, .LBTagCont4:hover .LBTagBtn25, .LBTagCont4:hover .LBTagBtn26, .LBTagCont4:hover .LBTagBtn27, .LBTagCont4:hover .LBTagBtn28, .LBTagCont4:hover .LBTagBtn29,
+.LBTagCont4:hover .LBTagBtn30, .LBTagCont5:hover .LBTagBtn1, .LBTagCont5:hover .LBTagBtn2, .LBTagCont5:hover .LBTagBtn3, .LBTagCont5:hover .LBTagBtn4, .LBTagCont5:hover .LBTagBtn5, .LBTagCont5:hover .LBTagBtn6, .LBTagCont5:hover .LBTagBtn7, .LBTagCont5:hover .LBTagBtn8, .LBTagCont5:hover .LBTagBtn9, .LBTagCont5:hover .LBTagBtn10,
+.LBTagCont5:hover .LBTagBtn11, .LBTagCont5:hover .LBTagBtn12, .LBTagCont5:hover .LBTagBtn13, .LBTagCont5:hover .LBTagBtn14, .LBTagCont5:hover .LBTagBtn15, .LBTagCont5:hover .LBTagBtn16, .LBTagCont5:hover .LBTagBtn17, .LBTagCont5:hover .LBTagBtn18, .LBTagCont5:hover .LBTagBtn19, .LBTagCont5:hover .LBTagBtn20,
+.LBTagCont5:hover .LBTagBtn21, .LBTagCont5:hover .LBTagBtn22, .LBTagCont5:hover .LBTagBtn23, .LBTagCont5:hover .LBTagBtn24, .LBTagCont5:hover .LBTagBtn25, .LBTagCont5:hover .LBTagBtn26, .LBTagCont5:hover .LBTagBtn27, .LBTagCont5:hover .LBTagBtn28, .LBTagCont5:hover .LBTagBtn29,
+.LBTagCont5:hover .LBTagBtn30, .LBTagCont6:hover .LBTagBtn1, .LBTagCont6:hover .LBTagBtn2, .LBTagCont6:hover .LBTagBtn3, .LBTagCont6:hover .LBTagBtn4, .LBTagCont6:hover .LBTagBtn5, .LBTagCont6:hover .LBTagBtn6, .LBTagCont6:hover .LBTagBtn7, .LBTagCont6:hover .LBTagBtn8, .LBTagCont6:hover .LBTagBtn9, .LBTagCont6:hover .LBTagBtn10,
+.LBTagCont6:hover .LBTagBtn11, .LBTagCont6:hover .LBTagBtn12, .LBTagCont6:hover .LBTagBtn13, .LBTagCont6:hover .LBTagBtn14, .LBTagCont6:hover .LBTagBtn15, .LBTagCont6:hover .LBTagBtn16, .LBTagCont6:hover .LBTagBtn17, .LBTagCont6:hover .LBTagBtn18, .LBTagCont6:hover .LBTagBtn19, .LBTagCont6:hover .LBTagBtn20,
+.LBTagCont6:hover .LBTagBtn21, .LBTagCont6:hover .LBTagBtn22, .LBTagCont6:hover .LBTagBtn23, .LBTagCont6:hover .LBTagBtn24, .LBTagCont6:hover .LBTagBtn25, .LBTagCont6:hover .LBTagBtn26, .LBTagCont6:hover .LBTagBtn27, .LBTagCont6:hover .LBTagBtn28, .LBTagCont6:hover .LBTagBtn29,
+.LBTagCont6:hover .LBTagBtn30, .LBTagCont7:hover .LBTagBtn1, .LBTagCont7:hover .LBTagBtn2, .LBTagCont7:hover .LBTagBtn3, .LBTagCont7:hover .LBTagBtn4, .LBTagCont7:hover .LBTagBtn5, .LBTagCont7:hover .LBTagBtn6, .LBTagCont7:hover .LBTagBtn7, .LBTagCont7:hover .LBTagBtn8, .LBTagCont7:hover .LBTagBtn9, .LBTagCont7:hover .LBTagBtn10,
+.LBTagCont7:hover .LBTagBtn11, .LBTagCont7:hover .LBTagBtn12, .LBTagCont7:hover .LBTagBtn13, .LBTagCont7:hover .LBTagBtn14, .LBTagCont7:hover .LBTagBtn15, .LBTagCont7:hover .LBTagBtn16, .LBTagCont7:hover .LBTagBtn17, .LBTagCont7:hover .LBTagBtn18, .LBTagCont7:hover .LBTagBtn19, .LBTagCont7:hover .LBTagBtn20,
+.LBTagCont7:hover .LBTagBtn21, .LBTagCont7:hover .LBTagBtn22, .LBTagCont7:hover .LBTagBtn23, .LBTagCont7:hover .LBTagBtn24, .LBTagCont7:hover .LBTagBtn25, .LBTagCont7:hover .LBTagBtn26, .LBTagCont7:hover .LBTagBtn27, .LBTagCont7:hover .LBTagBtn28, .LBTagCont7:hover .LBTagBtn29,
+.LBTagCont7:hover .LBTagBtn30,
+.LBTagCont8:hover .LBTagBtn1,
+.LBTagCont8:hover .LBTagBtn2,
+.LBTagCont8:hover .LBTagBtn3,
+.LBTagCont8:hover .LBTagBtn4,
+.LBTagCont8:hover .LBTagBtn5,
+.LBTagCont8:hover .LBTagBtn6,
+.LBTagCont8:hover .LBTagBtn7,
+.LBTagCont8:hover .LBTagBtn8,
+.LBTagCont8:hover .LBTagBtn9,
+.LBTagCont8:hover .LBTagBtn10,
+.LBTagCont8:hover .LBTagBtn11,
+.LBTagCont8:hover .LBTagBtn12,
+.LBTagCont8:hover .LBTagBtn13,
+.LBTagCont8:hover .LBTagBtn14,
+.LBTagCont8:hover .LBTagBtn15,
+.LBTagCont8:hover .LBTagBtn16,
+.LBTagCont8:hover .LBTagBtn17,
+.LBTagCont8:hover .LBTagBtn18,
+.LBTagCont8:hover .LBTagBtn19,
+.LBTagCont8:hover .LBTagBtn20,
+.LBTagCont8:hover .LBTagBtn21,
+.LBTagCont8:hover .LBTagBtn22,
+.LBTagCont8:hover .LBTagBtn23,
+.LBTagCont8:hover .LBTagBtn24,
+.LBTagCont8:hover .LBTagBtn25,
+.LBTagCont8:hover .LBTagBtn26,
+.LBTagCont8:hover .LBTagBtn27,
+.LBTagCont8:hover .LBTagBtn28,
+.LBTagCont8:hover .LBTagBtn29,
+.LBTagCont8:hover .LBTagBtn30, .LBTagCont9:hover .LBTagBtn1, .LBTagCont9:hover .LBTagBtn2, .LBTagCont9:hover .LBTagBtn3, .LBTagCont9:hover .LBTagBtn4, .LBTagCont9:hover .LBTagBtn5, .LBTagCont9:hover .LBTagBtn6, .LBTagCont9:hover .LBTagBtn7, .LBTagCont9:hover .LBTagBtn8, .LBTagCont9:hover .LBTagBtn9, .LBTagCont9:hover .LBTagBtn10,
+.LBTagCont9:hover .LBTagBtn11, .LBTagCont9:hover .LBTagBtn12, .LBTagCont9:hover .LBTagBtn13, .LBTagCont9:hover .LBTagBtn14, .LBTagCont9:hover .LBTagBtn15, .LBTagCont9:hover .LBTagBtn16, .LBTagCont9:hover .LBTagBtn17, .LBTagCont9:hover .LBTagBtn18, .LBTagCont9:hover .LBTagBtn19, .LBTagCont9:hover .LBTagBtn20,
+.LBTagCont9:hover .LBTagBtn21, .LBTagCont9:hover .LBTagBtn22, .LBTagCont9:hover .LBTagBtn23, .LBTagCont9:hover .LBTagBtn24, .LBTagCont9:hover .LBTagBtn25, .LBTagCont9:hover .LBTagBtn26, .LBTagCont9:hover .LBTagBtn27, .LBTagCont9:hover .LBTagBtn28, .LBTagCont9:hover .LBTagBtn29,
+.LBTagCont9:hover .LBTagBtn30, .LBTagCont10:hover .LBTagBtn1, .LBTagCont10:hover .LBTagBtn2, .LBTagCont10:hover .LBTagBtn3, .LBTagCont10:hover .LBTagBtn4, .LBTagCont10:hover .LBTagBtn5, .LBTagCont10:hover .LBTagBtn6, .LBTagCont10:hover .LBTagBtn7, .LBTagCont10:hover .LBTagBtn8, .LBTagCont10:hover .LBTagBtn9, .LBTagCont10:hover .LBTagBtn10,
+.LBTagCont10:hover .LBTagBtn11, .LBTagCont10:hover .LBTagBtn12, .LBTagCont10:hover .LBTagBtn13, .LBTagCont10:hover .LBTagBtn14, .LBTagCont10:hover .LBTagBtn15, .LBTagCont10:hover .LBTagBtn16, .LBTagCont10:hover .LBTagBtn17, .LBTagCont10:hover .LBTagBtn18, .LBTagCont10:hover .LBTagBtn19, .LBTagCont10:hover .LBTagBtn20,
+.LBTagCont10:hover .LBTagBtn21, .LBTagCont10:hover .LBTagBtn22, .LBTagCont10:hover .LBTagBtn23, .LBTagCont10:hover .LBTagBtn24, .LBTagCont10:hover .LBTagBtn25, .LBTagCont10:hover .LBTagBtn26, .LBTagCont10:hover .LBTagBtn27, .LBTagCont10:hover .LBTagBtn28, .LBTagCont10:hover .LBTagBtn29,
+.LBTagCont10:hover .LBTagBtn30, .LBTagCont11:hover .LBTagBtn1, .LBTagCont11:hover .LBTagBtn2, .LBTagCont11:hover .LBTagBtn3, .LBTagCont11:hover .LBTagBtn4, .LBTagCont11:hover .LBTagBtn5, .LBTagCont11:hover .LBTagBtn6, .LBTagCont11:hover .LBTagBtn7, .LBTagCont11:hover .LBTagBtn8, .LBTagCont11:hover .LBTagBtn9, .LBTagCont11:hover .LBTagBtn10,
+.LBTagCont11:hover .LBTagBtn11, .LBTagCont11:hover .LBTagBtn12, .LBTagCont11:hover .LBTagBtn13, .LBTagCont11:hover .LBTagBtn14, .LBTagCont11:hover .LBTagBtn15, .LBTagCont11:hover .LBTagBtn16, .LBTagCont11:hover .LBTagBtn17, .LBTagCont11:hover .LBTagBtn18, .LBTagCont11:hover .LBTagBtn19, .LBTagCont11:hover .LBTagBtn20,
+.LBTagCont11:hover .LBTagBtn21, .LBTagCont11:hover .LBTagBtn22, .LBTagCont11:hover .LBTagBtn23, .LBTagCont11:hover .LBTagBtn24, .LBTagCont11:hover .LBTagBtn25, .LBTagCont11:hover .LBTagBtn26, .LBTagCont11:hover .LBTagBtn27, .LBTagCont11:hover .LBTagBtn28, .LBTagCont11:hover .LBTagBtn29,
+.LBTagCont11:hover .LBTagBtn30, .LBTagCont12:hover .LBTagBtn1, .LBTagCont12:hover .LBTagBtn2, .LBTagCont12:hover .LBTagBtn3, .LBTagCont12:hover .LBTagBtn4, .LBTagCont12:hover .LBTagBtn5, .LBTagCont12:hover .LBTagBtn6, .LBTagCont12:hover .LBTagBtn7, .LBTagCont12:hover .LBTagBtn8, .LBTagCont12:hover .LBTagBtn9, .LBTagCont12:hover .LBTagBtn10,
+.LBTagCont12:hover .LBTagBtn11, .LBTagCont12:hover .LBTagBtn12, .LBTagCont12:hover .LBTagBtn13, .LBTagCont12:hover .LBTagBtn14, .LBTagCont12:hover .LBTagBtn15, .LBTagCont12:hover .LBTagBtn16, .LBTagCont12:hover .LBTagBtn17, .LBTagCont12:hover .LBTagBtn18, .LBTagCont12:hover .LBTagBtn19, .LBTagCont12:hover .LBTagBtn20,
+.LBTagCont12:hover .LBTagBtn21, .LBTagCont12:hover .LBTagBtn22, .LBTagCont12:hover .LBTagBtn23, .LBTagCont12:hover .LBTagBtn24, .LBTagCont12:hover .LBTagBtn25, .LBTagCont12:hover .LBTagBtn26, .LBTagCont12:hover .LBTagBtn27, .LBTagCont12:hover .LBTagBtn28, .LBTagCont12:hover .LBTagBtn29,
+.LBTagCont12:hover .LBTagBtn30, .LBTagCont13:hover .LBTagBtn1, .LBTagCont13:hover .LBTagBtn2, .LBTagCont13:hover .LBTagBtn3, .LBTagCont13:hover .LBTagBtn4, .LBTagCont13:hover .LBTagBtn5, .LBTagCont13:hover .LBTagBtn6, .LBTagCont13:hover .LBTagBtn7, .LBTagCont13:hover .LBTagBtn8, .LBTagCont13:hover .LBTagBtn9, .LBTagCont13:hover .LBTagBtn10,
+.LBTagCont13:hover .LBTagBtn11, .LBTagCont13:hover .LBTagBtn12, .LBTagCont13:hover .LBTagBtn13, .LBTagCont13:hover .LBTagBtn14, .LBTagCont13:hover .LBTagBtn15, .LBTagCont13:hover .LBTagBtn16, .LBTagCont13:hover .LBTagBtn17, .LBTagCont13:hover .LBTagBtn18, .LBTagCont13:hover .LBTagBtn19, .LBTagCont13:hover .LBTagBtn20,
+.LBTagCont13:hover .LBTagBtn21, .LBTagCont13:hover .LBTagBtn22, .LBTagCont13:hover .LBTagBtn23, .LBTagCont13:hover .LBTagBtn24, .LBTagCont13:hover .LBTagBtn25, .LBTagCont13:hover .LBTagBtn26, .LBTagCont13:hover .LBTagBtn27, .LBTagCont13:hover .LBTagBtn28, .LBTagCont13:hover .LBTagBtn29,
+.LBTagCont13:hover .LBTagBtn30, .LBTagCont14:hover .LBTagBtn1, .LBTagCont14:hover .LBTagBtn2, .LBTagCont14:hover .LBTagBtn3, .LBTagCont14:hover .LBTagBtn4, .LBTagCont14:hover .LBTagBtn5, .LBTagCont14:hover .LBTagBtn6, .LBTagCont14:hover .LBTagBtn7, .LBTagCont14:hover .LBTagBtn8, .LBTagCont14:hover .LBTagBtn9, .LBTagCont14:hover .LBTagBtn10,
+.LBTagCont14:hover .LBTagBtn11, .LBTagCont14:hover .LBTagBtn12, .LBTagCont14:hover .LBTagBtn13, .LBTagCont14:hover .LBTagBtn14, .LBTagCont14:hover .LBTagBtn15, .LBTagCont14:hover .LBTagBtn16, .LBTagCont14:hover .LBTagBtn17, .LBTagCont14:hover .LBTagBtn18, .LBTagCont14:hover .LBTagBtn19, .LBTagCont14:hover .LBTagBtn20,
+.LBTagCont14:hover .LBTagBtn21, .LBTagCont14:hover .LBTagBtn22, .LBTagCont14:hover .LBTagBtn23, .LBTagCont14:hover .LBTagBtn24, .LBTagCont14:hover .LBTagBtn25, .LBTagCont14:hover .LBTagBtn26, .LBTagCont14:hover .LBTagBtn27, .LBTagCont14:hover .LBTagBtn28, .LBTagCont14:hover .LBTagBtn29,
+.LBTagCont14:hover .LBTagBtn30,
+.LBTagCont15:hover .LBTagBtn1,
+.LBTagCont15:hover .LBTagBtn2,
+.LBTagCont15:hover .LBTagBtn3,
+.LBTagCont15:hover .LBTagBtn4,
+.LBTagCont15:hover .LBTagBtn5,
+.LBTagCont15:hover .LBTagBtn6,
+.LBTagCont15:hover .LBTagBtn7,
+.LBTagCont15:hover .LBTagBtn8,
+.LBTagCont15:hover .LBTagBtn9,
+.LBTagCont15:hover .LBTagBtn10,
+.LBTagCont15:hover .LBTagBtn11,
+.LBTagCont15:hover .LBTagBtn12,
+.LBTagCont15:hover .LBTagBtn13,
+.LBTagCont15:hover .LBTagBtn14,
+.LBTagCont15:hover .LBTagBtn15,
+.LBTagCont15:hover .LBTagBtn16,
+.LBTagCont15:hover .LBTagBtn17,
+.LBTagCont15:hover .LBTagBtn18,
+.LBTagCont15:hover .LBTagBtn19,
+.LBTagCont15:hover .LBTagBtn20,
+.LBTagCont15:hover .LBTagBtn21,
+.LBTagCont15:hover .LBTagBtn22,
+.LBTagCont15:hover .LBTagBtn23,
+.LBTagCont15:hover .LBTagBtn24,
+.LBTagCont15:hover .LBTagBtn25,
+.LBTagCont15:hover .LBTagBtn26,
+.LBTagCont15:hover .LBTagBtn27,
+.LBTagCont15:hover .LBTagBtn28,
+.LBTagCont15:hover .LBTagBtn29,
+.LBTagCont15:hover .LBTagBtn30, .LBTagCont16:hover .LBTagBtn1, .LBTagCont16:hover .LBTagBtn2, .LBTagCont16:hover .LBTagBtn3, .LBTagCont16:hover .LBTagBtn4, .LBTagCont16:hover .LBTagBtn5, .LBTagCont16:hover .LBTagBtn6, .LBTagCont16:hover .LBTagBtn7, .LBTagCont16:hover .LBTagBtn8, .LBTagCont16:hover .LBTagBtn9, .LBTagCont16:hover .LBTagBtn10,
+.LBTagCont16:hover .LBTagBtn11, .LBTagCont16:hover .LBTagBtn12, .LBTagCont16:hover .LBTagBtn13, .LBTagCont16:hover .LBTagBtn14, .LBTagCont16:hover .LBTagBtn15, .LBTagCont16:hover .LBTagBtn16, .LBTagCont16:hover .LBTagBtn17, .LBTagCont16:hover .LBTagBtn18, .LBTagCont16:hover .LBTagBtn19, .LBTagCont16:hover .LBTagBtn20,
+.LBTagCont16:hover .LBTagBtn21, .LBTagCont16:hover .LBTagBtn22, .LBTagCont16:hover .LBTagBtn23, .LBTagCont16:hover .LBTagBtn24, .LBTagCont16:hover .LBTagBtn25, .LBTagCont16:hover .LBTagBtn26, .LBTagCont16:hover .LBTagBtn27, .LBTagCont16:hover .LBTagBtn28, .LBTagCont16:hover .LBTagBtn29,
+.LBTagCont16:hover .LBTagBtn30, .LBTagCont17:hover .LBTagBtn1, .LBTagCont17:hover .LBTagBtn2, .LBTagCont17:hover .LBTagBtn3, .LBTagCont17:hover .LBTagBtn4, .LBTagCont17:hover .LBTagBtn5, .LBTagCont17:hover .LBTagBtn6, .LBTagCont17:hover .LBTagBtn7, .LBTagCont17:hover .LBTagBtn8, .LBTagCont17:hover .LBTagBtn9, .LBTagCont17:hover .LBTagBtn10,
+.LBTagCont17:hover .LBTagBtn11, .LBTagCont17:hover .LBTagBtn12, .LBTagCont17:hover .LBTagBtn13, .LBTagCont17:hover .LBTagBtn14, .LBTagCont17:hover .LBTagBtn15, .LBTagCont17:hover .LBTagBtn16, .LBTagCont17:hover .LBTagBtn17, .LBTagCont17:hover .LBTagBtn18, .LBTagCont17:hover .LBTagBtn19, .LBTagCont17:hover .LBTagBtn20,
+.LBTagCont17:hover .LBTagBtn21, .LBTagCont17:hover .LBTagBtn22, .LBTagCont17:hover .LBTagBtn23, .LBTagCont17:hover .LBTagBtn24, .LBTagCont17:hover .LBTagBtn25, .LBTagCont17:hover .LBTagBtn26, .LBTagCont17:hover .LBTagBtn27, .LBTagCont17:hover .LBTagBtn28, .LBTagCont17:hover .LBTagBtn29,
+.LBTagCont17:hover .LBTagBtn30, .LBTagCont18:hover .LBTagBtn1, .LBTagCont18:hover .LBTagBtn2, .LBTagCont18:hover .LBTagBtn3, .LBTagCont18:hover .LBTagBtn4, .LBTagCont18:hover .LBTagBtn5, .LBTagCont18:hover .LBTagBtn6, .LBTagCont18:hover .LBTagBtn7, .LBTagCont18:hover .LBTagBtn8, .LBTagCont18:hover .LBTagBtn9, .LBTagCont18:hover .LBTagBtn10,
+.LBTagCont18:hover .LBTagBtn11, .LBTagCont18:hover .LBTagBtn12, .LBTagCont18:hover .LBTagBtn13, .LBTagCont18:hover .LBTagBtn14, .LBTagCont18:hover .LBTagBtn15, .LBTagCont18:hover .LBTagBtn16, .LBTagCont18:hover .LBTagBtn17, .LBTagCont18:hover .LBTagBtn18, .LBTagCont18:hover .LBTagBtn19, .LBTagCont18:hover .LBTagBtn20,
+.LBTagCont18:hover .LBTagBtn21, .LBTagCont18:hover .LBTagBtn22, .LBTagCont18:hover .LBTagBtn23, .LBTagCont18:hover .LBTagBtn24, .LBTagCont18:hover .LBTagBtn25, .LBTagCont18:hover .LBTagBtn26, .LBTagCont18:hover .LBTagBtn27, .LBTagCont18:hover .LBTagBtn28, .LBTagCont18:hover .LBTagBtn29,
+.LBTagCont18:hover .LBTagBtn30, .LBTagCont19:hover .LBTagBtn1, .LBTagCont19:hover .LBTagBtn2, .LBTagCont19:hover .LBTagBtn3, .LBTagCont19:hover .LBTagBtn4, .LBTagCont19:hover .LBTagBtn5, .LBTagCont19:hover .LBTagBtn6, .LBTagCont19:hover .LBTagBtn7, .LBTagCont19:hover .LBTagBtn8, .LBTagCont19:hover .LBTagBtn9, .LBTagCont19:hover .LBTagBtn10,
+.LBTagCont19:hover .LBTagBtn11, .LBTagCont19:hover .LBTagBtn12, .LBTagCont19:hover .LBTagBtn13, .LBTagCont19:hover .LBTagBtn14, .LBTagCont19:hover .LBTagBtn15, .LBTagCont19:hover .LBTagBtn16, .LBTagCont19:hover .LBTagBtn17, .LBTagCont19:hover .LBTagBtn18, .LBTagCont19:hover .LBTagBtn19, .LBTagCont19:hover .LBTagBtn20,
+.LBTagCont19:hover .LBTagBtn21, .LBTagCont19:hover .LBTagBtn22, .LBTagCont19:hover .LBTagBtn23, .LBTagCont19:hover .LBTagBtn24, .LBTagCont19:hover .LBTagBtn25, .LBTagCont19:hover .LBTagBtn26, .LBTagCont19:hover .LBTagBtn27, .LBTagCont19:hover .LBTagBtn28, .LBTagCont19:hover .LBTagBtn29,
+.LBTagCont19:hover .LBTagBtn30, .LBTagCont20:hover .LBTagBtn1, .LBTagCont20:hover .LBTagBtn2, .LBTagCont20:hover .LBTagBtn3, .LBTagCont20:hover .LBTagBtn4, .LBTagCont20:hover .LBTagBtn5, .LBTagCont20:hover .LBTagBtn6, .LBTagCont20:hover .LBTagBtn7, .LBTagCont20:hover .LBTagBtn8, .LBTagCont20:hover .LBTagBtn9, .LBTagCont20:hover .LBTagBtn10,
+.LBTagCont20:hover .LBTagBtn11, .LBTagCont20:hover .LBTagBtn12, .LBTagCont20:hover .LBTagBtn13, .LBTagCont20:hover .LBTagBtn14, .LBTagCont20:hover .LBTagBtn15, .LBTagCont20:hover .LBTagBtn16, .LBTagCont20:hover .LBTagBtn17, .LBTagCont20:hover .LBTagBtn18, .LBTagCont20:hover .LBTagBtn19, .LBTagCont20:hover .LBTagBtn20,
+.LBTagCont20:hover .LBTagBtn21, .LBTagCont20:hover .LBTagBtn22, .LBTagCont20:hover .LBTagBtn23, .LBTagCont20:hover .LBTagBtn24, .LBTagCont20:hover .LBTagBtn25, .LBTagCont20:hover .LBTagBtn26, .LBTagCont20:hover .LBTagBtn27, .LBTagCont20:hover .LBTagBtn28, .LBTagCont20:hover .LBTagBtn29,
+.LBTagCont20:hover .LBTagBtn30, .LBTagCont21:hover .LBTagBtn1, .LBTagCont21:hover .LBTagBtn2, .LBTagCont21:hover .LBTagBtn3, .LBTagCont21:hover .LBTagBtn4, .LBTagCont21:hover .LBTagBtn5, .LBTagCont21:hover .LBTagBtn6, .LBTagCont21:hover .LBTagBtn7, .LBTagCont21:hover .LBTagBtn8, .LBTagCont21:hover .LBTagBtn9, .LBTagCont21:hover .LBTagBtn10,
+.LBTagCont21:hover .LBTagBtn11, .LBTagCont21:hover .LBTagBtn12, .LBTagCont21:hover .LBTagBtn13, .LBTagCont21:hover .LBTagBtn14, .LBTagCont21:hover .LBTagBtn15, .LBTagCont21:hover .LBTagBtn16, .LBTagCont21:hover .LBTagBtn17, .LBTagCont21:hover .LBTagBtn18, .LBTagCont21:hover .LBTagBtn19, .LBTagCont21:hover .LBTagBtn20,
+.LBTagCont21:hover .LBTagBtn21, .LBTagCont21:hover .LBTagBtn22, .LBTagCont21:hover .LBTagBtn23, .LBTagCont21:hover .LBTagBtn24, .LBTagCont21:hover .LBTagBtn25, .LBTagCont21:hover .LBTagBtn26, .LBTagCont21:hover .LBTagBtn27, .LBTagCont21:hover .LBTagBtn28, .LBTagCont21:hover .LBTagBtn29,
+.LBTagCont21:hover .LBTagBtn30,
+.LBTagCont22:hover .LBTagBtn1,
+.LBTagCont22:hover .LBTagBtn2,
+.LBTagCont22:hover .LBTagBtn3,
+.LBTagCont22:hover .LBTagBtn4,
+.LBTagCont22:hover .LBTagBtn5,
+.LBTagCont22:hover .LBTagBtn6,
+.LBTagCont22:hover .LBTagBtn7,
+.LBTagCont22:hover .LBTagBtn8,
+.LBTagCont22:hover .LBTagBtn9,
+.LBTagCont22:hover .LBTagBtn10,
+.LBTagCont22:hover .LBTagBtn11,
+.LBTagCont22:hover .LBTagBtn12,
+.LBTagCont22:hover .LBTagBtn13,
+.LBTagCont22:hover .LBTagBtn14,
+.LBTagCont22:hover .LBTagBtn15,
+.LBTagCont22:hover .LBTagBtn16,
+.LBTagCont22:hover .LBTagBtn17,
+.LBTagCont22:hover .LBTagBtn18,
+.LBTagCont22:hover .LBTagBtn19,
+.LBTagCont22:hover .LBTagBtn20,
+.LBTagCont22:hover .LBTagBtn21,
+.LBTagCont22:hover .LBTagBtn22,
+.LBTagCont22:hover .LBTagBtn23,
+.LBTagCont22:hover .LBTagBtn24,
+.LBTagCont22:hover .LBTagBtn25,
+.LBTagCont22:hover .LBTagBtn26,
+.LBTagCont22:hover .LBTagBtn27,
+.LBTagCont22:hover .LBTagBtn28,
+.LBTagCont22:hover .LBTagBtn29,
+.LBTagCont22:hover .LBTagBtn30, .LBTagCont23:hover .LBTagBtn1, .LBTagCont23:hover .LBTagBtn2, .LBTagCont23:hover .LBTagBtn3, .LBTagCont23:hover .LBTagBtn4, .LBTagCont23:hover .LBTagBtn5, .LBTagCont23:hover .LBTagBtn6, .LBTagCont23:hover .LBTagBtn7, .LBTagCont23:hover .LBTagBtn8, .LBTagCont23:hover .LBTagBtn9, .LBTagCont23:hover .LBTagBtn10,
+.LBTagCont23:hover .LBTagBtn11, .LBTagCont23:hover .LBTagBtn12, .LBTagCont23:hover .LBTagBtn13, .LBTagCont23:hover .LBTagBtn14, .LBTagCont23:hover .LBTagBtn15, .LBTagCont23:hover .LBTagBtn16, .LBTagCont23:hover .LBTagBtn17, .LBTagCont23:hover .LBTagBtn18, .LBTagCont23:hover .LBTagBtn19, .LBTagCont23:hover .LBTagBtn20,
+.LBTagCont23:hover .LBTagBtn21, .LBTagCont23:hover .LBTagBtn22, .LBTagCont23:hover .LBTagBtn23, .LBTagCont23:hover .LBTagBtn24, .LBTagCont23:hover .LBTagBtn25, .LBTagCont23:hover .LBTagBtn26, .LBTagCont23:hover .LBTagBtn27, .LBTagCont23:hover .LBTagBtn28, .LBTagCont23:hover .LBTagBtn29,
+.LBTagCont23:hover .LBTagBtn30, .LBTagCont24:hover .LBTagBtn1, .LBTagCont24:hover .LBTagBtn2, .LBTagCont24:hover .LBTagBtn3, .LBTagCont24:hover .LBTagBtn4, .LBTagCont24:hover .LBTagBtn5, .LBTagCont24:hover .LBTagBtn6, .LBTagCont24:hover .LBTagBtn7, .LBTagCont24:hover .LBTagBtn8, .LBTagCont24:hover .LBTagBtn9, .LBTagCont24:hover .LBTagBtn10,
+.LBTagCont24:hover .LBTagBtn11, .LBTagCont24:hover .LBTagBtn12, .LBTagCont24:hover .LBTagBtn13, .LBTagCont24:hover .LBTagBtn14, .LBTagCont24:hover .LBTagBtn15, .LBTagCont24:hover .LBTagBtn16, .LBTagCont24:hover .LBTagBtn17, .LBTagCont24:hover .LBTagBtn18, .LBTagCont24:hover .LBTagBtn19, .LBTagCont24:hover .LBTagBtn20,
+.LBTagCont24:hover .LBTagBtn21, .LBTagCont24:hover .LBTagBtn22, .LBTagCont24:hover .LBTagBtn23, .LBTagCont24:hover .LBTagBtn24, .LBTagCont24:hover .LBTagBtn25, .LBTagCont24:hover .LBTagBtn26, .LBTagCont24:hover .LBTagBtn27, .LBTagCont24:hover .LBTagBtn28, .LBTagCont24:hover .LBTagBtn29,
+.LBTagCont24:hover .LBTagBtn30, .LBTagCont25:hover .LBTagBtn1, .LBTagCont25:hover .LBTagBtn2, .LBTagCont25:hover .LBTagBtn3, .LBTagCont25:hover .LBTagBtn4, .LBTagCont25:hover .LBTagBtn5, .LBTagCont25:hover .LBTagBtn6, .LBTagCont25:hover .LBTagBtn7, .LBTagCont25:hover .LBTagBtn8, .LBTagCont25:hover .LBTagBtn9, .LBTagCont25:hover .LBTagBtn10,
+.LBTagCont25:hover .LBTagBtn11, .LBTagCont25:hover .LBTagBtn12, .LBTagCont25:hover .LBTagBtn13, .LBTagCont25:hover .LBTagBtn14, .LBTagCont25:hover .LBTagBtn15, .LBTagCont25:hover .LBTagBtn16, .LBTagCont25:hover .LBTagBtn17, .LBTagCont25:hover .LBTagBtn18, .LBTagCont25:hover .LBTagBtn19, .LBTagCont25:hover .LBTagBtn20,
+.LBTagCont25:hover .LBTagBtn21, .LBTagCont25:hover .LBTagBtn22, .LBTagCont25:hover .LBTagBtn23, .LBTagCont25:hover .LBTagBtn24, .LBTagCont25:hover .LBTagBtn25, .LBTagCont25:hover .LBTagBtn26, .LBTagCont25:hover .LBTagBtn27, .LBTagCont25:hover .LBTagBtn28, .LBTagCont25:hover .LBTagBtn29,
+.LBTagCont25:hover .LBTagBtn30, .LBTagCont26:hover .LBTagBtn1, .LBTagCont26:hover .LBTagBtn2, .LBTagCont26:hover .LBTagBtn3, .LBTagCont26:hover .LBTagBtn4, .LBTagCont26:hover .LBTagBtn5, .LBTagCont26:hover .LBTagBtn6, .LBTagCont26:hover .LBTagBtn7, .LBTagCont26:hover .LBTagBtn8, .LBTagCont26:hover .LBTagBtn9, .LBTagCont26:hover .LBTagBtn10,
+.LBTagCont26:hover .LBTagBtn11, .LBTagCont26:hover .LBTagBtn12, .LBTagCont26:hover .LBTagBtn13, .LBTagCont26:hover .LBTagBtn14, .LBTagCont26:hover .LBTagBtn15, .LBTagCont26:hover .LBTagBtn16, .LBTagCont26:hover .LBTagBtn17, .LBTagCont26:hover .LBTagBtn18, .LBTagCont26:hover .LBTagBtn19, .LBTagCont26:hover .LBTagBtn20,
+.LBTagCont26:hover .LBTagBtn21, .LBTagCont26:hover .LBTagBtn22, .LBTagCont26:hover .LBTagBtn23, .LBTagCont26:hover .LBTagBtn24, .LBTagCont26:hover .LBTagBtn25, .LBTagCont26:hover .LBTagBtn26, .LBTagCont26:hover .LBTagBtn27, .LBTagCont26:hover .LBTagBtn28, .LBTagCont26:hover .LBTagBtn29,
+.LBTagCont26:hover .LBTagBtn30, .LBTagCont27:hover .LBTagBtn1, .LBTagCont27:hover .LBTagBtn2, .LBTagCont27:hover .LBTagBtn3, .LBTagCont27:hover .LBTagBtn4, .LBTagCont27:hover .LBTagBtn5, .LBTagCont27:hover .LBTagBtn6, .LBTagCont27:hover .LBTagBtn7, .LBTagCont27:hover .LBTagBtn8, .LBTagCont27:hover .LBTagBtn9, .LBTagCont27:hover .LBTagBtn10,
+.LBTagCont27:hover .LBTagBtn11, .LBTagCont27:hover .LBTagBtn12, .LBTagCont27:hover .LBTagBtn13, .LBTagCont27:hover .LBTagBtn14, .LBTagCont27:hover .LBTagBtn15, .LBTagCont27:hover .LBTagBtn16, .LBTagCont27:hover .LBTagBtn17, .LBTagCont27:hover .LBTagBtn18, .LBTagCont27:hover .LBTagBtn19, .LBTagCont27:hover .LBTagBtn20,
+.LBTagCont27:hover .LBTagBtn21, .LBTagCont27:hover .LBTagBtn22, .LBTagCont27:hover .LBTagBtn23, .LBTagCont27:hover .LBTagBtn24, .LBTagCont27:hover .LBTagBtn25, .LBTagCont27:hover .LBTagBtn26, .LBTagCont27:hover .LBTagBtn27, .LBTagCont27:hover .LBTagBtn28, .LBTagCont27:hover .LBTagBtn29,
+.LBTagCont27:hover .LBTagBtn30,
+.LBTagCont28:hover .LBTagBtn1,
+.LBTagCont28:hover .LBTagBtn2,
+.LBTagCont28:hover .LBTagBtn3,
+.LBTagCont28:hover .LBTagBtn4,
+.LBTagCont28:hover .LBTagBtn5,
+.LBTagCont28:hover .LBTagBtn6,
+.LBTagCont28:hover .LBTagBtn7,
+.LBTagCont28:hover .LBTagBtn8,
+.LBTagCont28:hover .LBTagBtn9,
+.LBTagCont28:hover .LBTagBtn10,
+.LBTagCont28:hover .LBTagBtn11,
+.LBTagCont28:hover .LBTagBtn12,
+.LBTagCont28:hover .LBTagBtn13,
+.LBTagCont28:hover .LBTagBtn14,
+.LBTagCont28:hover .LBTagBtn15,
+.LBTagCont28:hover .LBTagBtn16,
+.LBTagCont28:hover .LBTagBtn17,
+.LBTagCont28:hover .LBTagBtn18,
+.LBTagCont28:hover .LBTagBtn19,
+.LBTagCont28:hover .LBTagBtn20,
+.LBTagCont28:hover .LBTagBtn21,
+.LBTagCont28:hover .LBTagBtn22,
+.LBTagCont28:hover .LBTagBtn23,
+.LBTagCont28:hover .LBTagBtn24,
+.LBTagCont28:hover .LBTagBtn25,
+.LBTagCont28:hover .LBTagBtn26,
+.LBTagCont28:hover .LBTagBtn27,
+.LBTagCont28:hover .LBTagBtn28,
+.LBTagCont28:hover .LBTagBtn29,
+.LBTagCont28:hover .LBTagBtn30, .LBTagCont29:hover .LBTagBtn1, .LBTagCont29:hover .LBTagBtn2, .LBTagCont29:hover .LBTagBtn3, .LBTagCont29:hover .LBTagBtn4, .LBTagCont29:hover .LBTagBtn5, .LBTagCont29:hover .LBTagBtn6, .LBTagCont29:hover .LBTagBtn7, .LBTagCont29:hover .LBTagBtn8, .LBTagCont29:hover .LBTagBtn9, .LBTagCont29:hover .LBTagBtn10,
+.LBTagCont29:hover .LBTagBtn11, .LBTagCont29:hover .LBTagBtn12, .LBTagCont29:hover .LBTagBtn13, .LBTagCont29:hover .LBTagBtn14, .LBTagCont29:hover .LBTagBtn15, .LBTagCont29:hover .LBTagBtn16, .LBTagCont29:hover .LBTagBtn17, .LBTagCont29:hover .LBTagBtn18, .LBTagCont29:hover .LBTagBtn19, .LBTagCont29:hover .LBTagBtn20,
+.LBTagCont29:hover .LBTagBtn21, .LBTagCont29:hover .LBTagBtn22, .LBTagCont29:hover .LBTagBtn23, .LBTagCont29:hover .LBTagBtn24, .LBTagCont29:hover .LBTagBtn25, .LBTagCont29:hover .LBTagBtn26, .LBTagCont29:hover .LBTagBtn27, .LBTagCont29:hover .LBTagBtn28, .LBTagCont29:hover .LBTagBtn29,
+.LBTagCont29:hover .LBTagBtn30, .LBTagCont30:hover .LBTagBtn1, .LBTagCont30:hover .LBTagBtn2, .LBTagCont30:hover .LBTagBtn3, .LBTagCont30:hover .LBTagBtn4, .LBTagCont30:hover .LBTagBtn5, .LBTagCont30:hover .LBTagBtn6, .LBTagCont30:hover .LBTagBtn7, .LBTagCont30:hover .LBTagBtn8, .LBTagCont30:hover .LBTagBtn9, .LBTagCont30:hover .LBTagBtn10,
+.LBTagCont30:hover .LBTagBtn11, .LBTagCont30:hover .LBTagBtn12, .LBTagCont30:hover .LBTagBtn13, .LBTagCont30:hover .LBTagBtn14, .LBTagCont30:hover .LBTagBtn15, .LBTagCont30:hover .LBTagBtn16, .LBTagCont30:hover .LBTagBtn17, .LBTagCont30:hover .LBTagBtn18, .LBTagCont30:hover .LBTagBtn19, .LBTagCont30:hover .LBTagBtn20,
+.LBTagCont30:hover .LBTagBtn21, .LBTagCont30:hover .LBTagBtn22, .LBTagCont30:hover .LBTagBtn23, .LBTagCont30:hover .LBTagBtn24, .LBTagCont30:hover .LBTagBtn25, .LBTagCont30:hover .LBTagBtn26, .LBTagCont30:hover .LBTagBtn27, .LBTagCont30:hover .LBTagBtn28, .LBTagCont30:hover .LBTagBtn29,
+.LBTagCont30:hover .LBTagBtn30 {
+  text-align: center;
+  padding-top: 5px;
+  width: 70px;
+  height: 30px;
+  background-color: #3B49DF;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.LBTagCont1:hover, .LBTagCont2:hover, .LBTagCont3:hover, .LBTagCont4:hover, .LBTagCont5:hover, .LBTagCont6:hover, .LBTagCont7:hover,
+.LBTagCont8:hover, .LBTagCont9:hover, .LBTagCont10:hover, .LBTagCont11:hover, .LBTagCont12:hover, .LBTagCont13:hover, .LBTagCont14:hover,
+.LBTagCont15:hover, .LBTagCont16:hover, .LBTagCont17:hover, .LBTagCont18:hover, .LBTagCont19:hover, .LBTagCont20:hover, .LBTagCont21:hover,
+.LBTagCont22:hover, .LBTagCont23:hover, .LBTagCont24:hover, .LBTagCont25:hover, .LBTagCont26:hover, .LBTagCont27:hover,
+.LBTagCont28:hover, .LBTagCont29:hover, .LBTagCont30:hover {
+  background-color: #E3E3E3;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #3B49DF;
+}
+
+.LBcontPub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 300px;
+  width: 240px;
+}
+
+.LBim1 {
+  height: 180px;
+  width: 240px;
+}
+
+.LBcontPub:hover {
+  cursor: pointer;
+}
+
 .right-card-1 {
   background-color: #f9f9f9;
   padding: 20px;
