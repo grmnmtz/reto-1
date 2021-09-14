@@ -1652,7 +1652,11 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
+  border: 0.5px solid black;
   background: white;
+  border-radius: 5px;
+  border: 0.1px solid #dbd6d6;
+  margin-bottom: 12px;
 }
 
 .publications .card .white-canvas {
@@ -1672,6 +1676,7 @@ main {
   border-radius: 3%;
   width: 100%;
   height: 90%;
+  padding: 20px 0 20px;
 }
 
 .publications .card .white-canvas .author-photo-info {
@@ -1689,16 +1694,25 @@ main {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
+  margin-left: 30px;
 }
 
 .publications .card .white-canvas .author-photo-info .author-photo {
+  border: 0.5px solid black;
   height: 25%;
+  padding: 4px;
 }
 
 .publications .card .white-canvas .author-photo-info .author-photo .author-link .author-image {
   border-radius: 50%;
   height: auto;
   width: 45px;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author {
+  border: 0.5px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li {
@@ -1716,6 +1730,7 @@ main {
   border-radius: 10%;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+  margin-left: -11px;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button:hover {
@@ -1751,11 +1766,16 @@ main {
   border: blue 0.5px solid;
 }
 
+.publications .card .white-canvas .title-tags-article .article-title a h2 {
+  height: 35px;
+  display: inline-block;
+}
+
 .publications .card .white-canvas .title-tags-article .article-title .link-article {
   text-decoration: none;
   color: black;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
 }
 
 .publications .card .white-canvas .title-tags-article .article-title .link-article:hover {
@@ -1767,6 +1787,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   border: red 0.5px solid;
+  padding: 6px 0 6px;
 }
 
 .publications .card .white-canvas .tags-bar .tags-list {
@@ -1800,6 +1821,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 6px 0 6px;
 }
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments {
@@ -1831,7 +1853,7 @@ main {
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .comment-button {
   text-decoration: none;
   background: transparent;
-  padding: 14px;
+  padding: 6px;
   border-radius: 5%;
   color: #585555;
 }
@@ -2176,7 +2198,11 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
+  border: 0.5px solid black;
   background: white;
+  border-radius: 5px;
+  border: 0.1px solid #dbd6d6;
+  margin-bottom: 12px;
 }
 
 .publications .card .white-canvas {
@@ -2196,6 +2222,7 @@ main {
   border-radius: 3%;
   width: 100%;
   height: 90%;
+  padding: 20px 0 20px;
 }
 
 .publications .card .white-canvas .author-photo-info {
@@ -2213,16 +2240,25 @@ main {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
+  margin-left: 30px;
 }
 
 .publications .card .white-canvas .author-photo-info .author-photo {
+  border: 0.5px solid black;
   height: 25%;
+  padding: 4px;
 }
 
 .publications .card .white-canvas .author-photo-info .author-photo .author-link .author-image {
   border-radius: 50%;
   height: auto;
   width: 45px;
+}
+
+.publications .card .white-canvas .author-photo-info .info-author {
+  border: 0.5px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li {
@@ -2240,6 +2276,7 @@ main {
   border-radius: 10%;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+  margin-left: -11px;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button:hover {
@@ -2275,11 +2312,16 @@ main {
   border: blue 0.5px solid;
 }
 
+.publications .card .white-canvas .title-tags-article .article-title a h2 {
+  height: 35px;
+  display: inline-block;
+}
+
 .publications .card .white-canvas .title-tags-article .article-title .link-article {
   text-decoration: none;
   color: black;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
 }
 
 .publications .card .white-canvas .title-tags-article .article-title .link-article:hover {
@@ -2291,6 +2333,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   border: red 0.5px solid;
+  padding: 6px 0 6px;
 }
 
 .publications .card .white-canvas .tags-bar .tags-list {
@@ -2324,6 +2367,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 6px 0 6px;
 }
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments {
@@ -2355,7 +2399,7 @@ main {
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .comment-button {
   text-decoration: none;
   background: transparent;
-  padding: 14px;
+  padding: 6px;
   border-radius: 5%;
   color: #585555;
 }
