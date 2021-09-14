@@ -1652,7 +1652,6 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  border: 0.5px solid black;
   background: white;
   border-radius: 5px;
   border: 0.1px solid #dbd6d6;
@@ -1698,7 +1697,6 @@ main {
 }
 
 .publications .card .white-canvas .author-photo-info .author-photo {
-  border: 0.5px solid black;
   height: 25%;
   padding: 4px;
 }
@@ -1710,9 +1708,9 @@ main {
 }
 
 .publications .card .white-canvas .author-photo-info .info-author {
-  border: 0.5px solid black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: 3px;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li {
@@ -1722,15 +1720,18 @@ main {
 .publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button {
   background: transparent;
   border: none;
-  color: #2c2a2a;
+  color: #424040;
   font-size: 14px;
-  padding: 12px;
+  padding: 3px;
   text-align: center;
   display: inline-block;
   border-radius: 10%;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   margin-left: -11px;
+  position: relative;
+  left: 8px;
+  font-weight: 900;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button:hover {
@@ -1742,6 +1743,9 @@ main {
   background: transparent;
   border: none;
   color: #585555;
+  position: relative;
+  top: -6px;
+  font-size: smaller;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li .release-date-button:hover {
@@ -1762,10 +1766,6 @@ main {
   width: 90%;
 }
 
-.publications .card .white-canvas .title-tags-article .article-title {
-  border: blue 0.5px solid;
-}
-
 .publications .card .white-canvas .title-tags-article .article-title a h2 {
   height: 35px;
   display: inline-block;
@@ -1776,6 +1776,8 @@ main {
   color: black;
   -webkit-transition: 0.05s;
   transition: 0.05s;
+  font-size: large;
+  font-weight: bolder;
 }
 
 .publications .card .white-canvas .title-tags-article .article-title .link-article:hover {
@@ -1791,13 +1793,15 @@ main {
 }
 
 .publications .card .white-canvas .tags-bar .tags-list {
-  border: green 0.5px solid;
+  padding: 10px;
 }
 
 .publications .card .white-canvas .tags-bar .tags-list li {
   display: inline;
   list-style: none;
   color: #585555;
+  font-size: medium;
+  margin-right: 8px;
 }
 
 .publications .card .white-canvas .tags-bar .tags-list li a {
@@ -1822,10 +1826,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 6px 0 6px;
-}
-
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments {
-  border: teal 0.5px solid;
+  margin: 8px 0 8px 0;
 }
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons {
@@ -1834,12 +1835,14 @@ main {
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li {
   display: inline;
+  font-size: medium;
+  margin-right: 10px;
 }
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .reaction-button {
   text-decoration: none;
   background: transparent;
-  padding: 14px;
+  padding: 6px;
   border-radius: 5%;
   border: none;
   color: #585555;
@@ -2198,7 +2201,6 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  border: 0.5px solid black;
   background: white;
   border-radius: 5px;
   border: 0.1px solid #dbd6d6;
@@ -2244,7 +2246,6 @@ main {
 }
 
 .publications .card .white-canvas .author-photo-info .author-photo {
-  border: 0.5px solid black;
   height: 25%;
   padding: 4px;
 }
@@ -2256,9 +2257,9 @@ main {
 }
 
 .publications .card .white-canvas .author-photo-info .info-author {
-  border: 0.5px solid black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: 3px;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li {
@@ -2268,15 +2269,18 @@ main {
 .publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button {
   background: transparent;
   border: none;
-  color: #2c2a2a;
+  color: #424040;
   font-size: 14px;
-  padding: 12px;
+  padding: 3px;
   text-align: center;
   display: inline-block;
   border-radius: 10%;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   margin-left: -11px;
+  position: relative;
+  left: 8px;
+  font-weight: 900;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button:hover {
@@ -2288,6 +2292,9 @@ main {
   background: transparent;
   border: none;
   color: #585555;
+  position: relative;
+  top: -6px;
+  font-size: smaller;
 }
 
 .publications .card .white-canvas .author-photo-info .info-author ul li .release-date-button:hover {
@@ -2308,10 +2315,6 @@ main {
   width: 90%;
 }
 
-.publications .card .white-canvas .title-tags-article .article-title {
-  border: blue 0.5px solid;
-}
-
 .publications .card .white-canvas .title-tags-article .article-title a h2 {
   height: 35px;
   display: inline-block;
@@ -2322,6 +2325,8 @@ main {
   color: black;
   -webkit-transition: 0.05s;
   transition: 0.05s;
+  font-size: large;
+  font-weight: bolder;
 }
 
 .publications .card .white-canvas .title-tags-article .article-title .link-article:hover {
@@ -2337,13 +2342,15 @@ main {
 }
 
 .publications .card .white-canvas .tags-bar .tags-list {
-  border: green 0.5px solid;
+  padding: 10px;
 }
 
 .publications .card .white-canvas .tags-bar .tags-list li {
   display: inline;
   list-style: none;
   color: #585555;
+  font-size: medium;
+  margin-right: 8px;
 }
 
 .publications .card .white-canvas .tags-bar .tags-list li a {
@@ -2368,10 +2375,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 6px 0 6px;
-}
-
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments {
-  border: teal 0.5px solid;
+  margin: 8px 0 8px 0;
 }
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons {
@@ -2380,12 +2384,14 @@ main {
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li {
   display: inline;
+  font-size: medium;
+  margin-right: 10px;
 }
 
 .publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .reaction-button {
   text-decoration: none;
   background: transparent;
-  padding: 14px;
+  padding: 6px;
   border-radius: 5%;
   border: none;
   color: #585555;
