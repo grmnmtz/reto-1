@@ -295,7 +295,7 @@ main {
 #LBbtnAcount {
   background-color: #3b49df;
   color: white;
-  padding: 10px 51px;
+  padding: 10px 32px;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
@@ -307,11 +307,11 @@ main {
 }
 
 #LBbtnLogIn {
-  padding: 10px 51px;
+  padding: 10px 32px;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  padding: 10px 100px;
+  padding: 10px 80px;
   color: #3b49df;
   margin-bottom: 10px;
 }
