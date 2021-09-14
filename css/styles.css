@@ -5,6 +5,18 @@
           box-sizing: border-box;
 }
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   padding: 0 16px;
   margin: 0 auto;
@@ -12,9 +24,6 @@
   max-width: 1600px;
 }
 
-<<<<<<< HEAD
-body {
-=======
 .main-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +79,6 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,9 +86,12 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  scroll-behavior: smooth;
-  font-family: "Segoe UI", "Roboto", sans-serif;
-  min-height: 100vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-header {
@@ -90,6 +101,7 @@ main {
   right: 0px;
   left: 0px;
   border-bottom: 1px solid #bdbdbd;
+  background-color: #ffffff;
 }
 
 .navbar {
@@ -165,7 +177,7 @@ main {
   border-width: 0px;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   padding: 8px 16px;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
@@ -178,7 +190,7 @@ main {
   border-radius: 5px;
   border-width: 0px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   margin-left: 10px;
   padding: 8px 16px;
@@ -201,39 +213,8 @@ main {
   outline: none;
 }
 
-<<<<<<< HEAD
-main {
-  background-color: #efefef;
-}
-
-.main-content {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  padding-top: 16px;
-}
-
-.sidebar-left {
-  background-color: brown;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  min-height: 700px;
-=======
 .left-card {
   border-radius: 10px;
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,22 +222,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.articles {
-  min-height: 350px;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  margin: 0 20px;
-=======
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-align: start;
@@ -314,7 +279,6 @@ main {
 
 .LBcontBotonesIntro {
   border-radius: 10px;
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,14 +286,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-=======
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -344,34 +300,12 @@ main {
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 10px;
->>>>>>> test-german
 }
 
-.sidebar-right {
-  min-height: 800px;
-  background-color: blue;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#LBbtnAcount:hover {
+  background-color: #2c38c0;
 }
 
-<<<<<<< HEAD
-.sidebar-left .left-card div {
-  padding: 20px;
-=======
 #LBbtnLogIn {
   padding: 10px 32px;
   border-radius: 5px;
@@ -380,49 +314,12 @@ main {
   padding: 10px 80px;
   color: #3b49df;
   margin-bottom: 10px;
->>>>>>> test-german
 }
 
-.frequency-posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-<<<<<<< HEAD
-  padding: 15px;
-=======
->>>>>>> dcec1c1ccc8fb8929a9dbce4c6ad990377f20e1b
+#LBbtnLogIn:hover {
+  background-color: #f1efef;
 }
 
-<<<<<<< HEAD
-.frequency-posts h3 {
-  width: 15%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.frequency-posts .options {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 20%;
-}
-
-.frequency-posts .options ul {
-=======
 .LBcont1,
 .LBOcont0 {
   font-weight: bold;
@@ -447,44 +344,21 @@ main {
 .LBOcont2,
 .LBOcont3 {
   padding: 10px 120px 10px 10px;
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
-<<<<<<< HEAD
-.frequency-posts .options ul li {
-  display: inline;
-  margin: 0 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.frequency-posts .options ul li a button {
-  background: transparent;
-  border: none;
-  color: #3d3d3d;
-  font-size: 16px;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 10%;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-}
-
-.frequency-posts .options ul li a button:hover {
-  background: #dddeee;
-  color: #3b49df;
-=======
 #LBicon10 {
   height: 24px;
   width: 24px;
@@ -508,20 +382,14 @@ main {
   background-color: #e3e3e3;
   cursor: pointer;
   border-radius: 5px;
->>>>>>> test-german
 }
 
-.publications {
+.LBcontRedS {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-<<<<<<< HEAD
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-=======
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: start;
@@ -548,10 +416,9 @@ main {
 #LBiconRS5:hover {
   fill: #504f4f;
   cursor: pointer;
->>>>>>> test-german
 }
 
-.publications .image-of-the-week {
+.LBcontTags {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,28 +426,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  width: 100%;
-}
-
-.publications .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  border-radius: 3%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-=======
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -593,12 +438,11 @@ main {
 
 .LBheadTags {
   font-size: 16px;
->>>>>>> test-german
   width: 100%;
-  background: white;
+  padding-bottom: 10px;
 }
 
-.publications .card .white-canvas {
+.LBtags {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -606,20 +450,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 3%;
-  width: 100%;
-  height: 90%;
-}
-
-.publications .card .white-canvas .author-photo-info {
-=======
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -664,7 +494,6 @@ main {
 .LBTagCont28,
 .LBTagCont29,
 .LBTagCont30 {
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -672,15 +501,20 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-<<<<<<< HEAD
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 100%;
-=======
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 223px;
+  height: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 16px;
   padding: 20px 10px 20px 0px;
   border-radius: 5px;
@@ -1691,54 +1525,12 @@ main {
 .LBim1 {
   height: 180px;
   width: 240px;
->>>>>>> test-german
 }
 
-.publications .card .white-canvas .author-photo-info .author-photo {
-  height: 25%;
+.LBcontPub:hover {
+  cursor: pointer;
 }
 
-<<<<<<< HEAD
-.publications .card .white-canvas .author-photo-info .author-photo .author-link .author-image {
-  border-radius: 50%;
-  height: auto;
-  width: 45px;
-}
-
-.publications .card .white-canvas .author-photo-info .info-author ul li {
-  list-style: none;
-}
-
-.publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button {
-  background: transparent;
-  border: none;
-  color: #2c2a2a;
-  font-size: 14px;
-  padding: 12px;
-  text-align: center;
-  display: inline-block;
-  border-radius: 10%;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-}
-
-.publications .card .white-canvas .author-photo-info .info-author ul li .author-name-button:hover {
-  background: #f6f6f6;
-  color: black;
-}
-
-.publications .card .white-canvas .author-photo-info .info-author ul li .release-date-button {
-  background: transparent;
-  border: none;
-  color: #585555;
-}
-
-.publications .card .white-canvas .author-photo-info .info-author ul li .release-date-button:hover {
-  color: black;
-}
-
-.publications .card .white-canvas .title-tags-article {
-=======
 .article-1 {
   width: 100%;
   background: transparent;
@@ -1821,7 +1613,6 @@ main {
 }
 
 .publications {
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1829,52 +1620,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 90%;
-}
-
-.publications .card .white-canvas .title-tags-article .article-title {
-  border: blue 0.5px solid;
-}
-
-.publications .card .white-canvas .title-tags-article .article-title .link-article {
-  text-decoration: none;
-  color: black;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.publications .card .white-canvas .title-tags-article .article-title .link-article:hover {
-  color: #323ebe;
-}
-
-.publications .card .white-canvas .tags-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: red 0.5px solid;
-}
-
-.publications .card .white-canvas .tags-bar .tags-list {
-  border: green 0.5px solid;
-}
-
-.publications .card .white-canvas .tags-bar .tags-list li {
-  display: inline;
-  list-style: none;
-  color: #585555;
-}
-
-.publications .card .white-canvas .tags-bar .tags-list li a {
-  color: #585555;
-  text-decoration: none;
-}
-
-.publications .card .white-canvas .tags-bar .tags-list li a:hover {
-=======
   width: 100%;
 }
 
@@ -2249,66 +1994,62 @@ main {
 .right-card-2-footer a {
   text-decoration: none;
   font-size: 18px;
->>>>>>> test-german
   color: black;
 }
 
-.publications .card .white-canvas .reactions-to-article {
-  border: orange 0.5px solid;
+.right-card-2-content .link-container .card-2-p-container .paragraph-1:hover {
+  color: #3b49e2;
+}
+
+.right-card-2-content:hover {
+  background-color: #ffffff;
+}
+
+.right-card-2-footer a:hover {
+  color: #3b49e2;
+}
+
+.right-span-container {
+  margin: 10px 0 0 0;
+}
+
+.right-span-container .right-card-span {
+  background-color: #3b49e2;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+
+.right-card-container-4 {
+  margin-top: 20px;
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 100%;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments {
-  border: teal 0.5px solid;
+.right-card-container-4 .container-4-header {
+  padding: 20px 0 30px 10px;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons {
-  list-style: none;
+.right-card-container-4 .container-4-header .container-4-tittle {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li {
-  display: inline;
+.right-card-container-4 .right-card-2-content {
+  padding: 20px;
+  border-bottom: none;
 }
 
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .reaction-button {
-  text-decoration: none;
-  background: transparent;
-  padding: 14px;
-  border-radius: 5%;
-  border: none;
-  color: #585555;
-}
-
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .reaction-button:hover {
-  background: #f6f6f6;
-  color: black;
-}
-
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .comment-button {
-  text-decoration: none;
-  background: transparent;
-  padding: 14px;
-  border-radius: 5%;
-  color: #585555;
-}
-
-.publications .card .white-canvas .reactions-to-article .reactions-and-comments .reactions-comments-buttons li .comment-button:hover {
-  background: #f6f6f6;
-  color: black;
-}
-
-<<<<<<< HEAD
-.publications .card .white-canvas .reactions-to-article .time-save-options {
-=======
 .articles {
   border-radius: 10px;
   background: transparent;
@@ -2667,43 +2408,47 @@ main {
   padding: 0 16px;
   background-color: #d6d6d7;
   width: 100%;
->>>>>>> test-german
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  border: green solid 0.5px;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 250px;
+  margin: 0 auto;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons {
-  list-style: none;
+.footer-1 {
+  margin: 30px 0 20px 0;
+  text-align: center;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li {
-  display: inline;
+.footer-1 .footer-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .reading-time {
-  color: #585555;
+.footer-2 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .save-button {
-  background: #cec8c8;
-  border: none;
-  color: #585555;
-  font-size: 16px;
-  padding: 8px;
-  border-radius: 10%;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+.footer-2 .footer-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
 }
 
-.publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .save-button:hover {
-  background: #bdbdbd;
-  color: #090909;
+.footer-image {
+  margin: 20px 0 20px 0px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
