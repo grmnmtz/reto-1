@@ -36,7 +36,7 @@ main {
 .sidebar-left {
   background-color: transparent;
   flex: 1;
-  @include flexColumns();
+  // @include flexColumns();
 }
 
 .articles {
