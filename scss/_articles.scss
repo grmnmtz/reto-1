@@ -441,6 +441,10 @@ $testBorder : 0.5px solid black ;
       display: flex;
       flex-direction: row;
       justify-content: center;
+      box-sizing: border-box;
+      width: 15%;
+      margin: 20px 0 0 0;
+
       .rotated-dev-logo{
         rotate: "45";
         border-radius: 5%;
@@ -449,11 +453,77 @@ $testBorder : 0.5px solid black ;
       }
     }
 
+    .text-dev-card{
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      justify-content: space-around;
+      align-items: center;
+      width: 75%;
+      
+
+      .dev-description-text{
+        display: flex;
+        flex-direction: column;
+        margin: 14px 0 14px 0;
+
+          .what-is-dev{
+            font-size: xx-large;
+            // margin-bottom: 18px;
+            a{
+              text-decoration: none;
+            }
+          }
+
+          .dev-a-place{
+            margin-bottom: 14px;
+          }
+        
+
+      }
+
+      .button-section-dev-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .create-new-account-button{
+          background-color: #323ebe;
+          color: white;
+          padding: 12px;
+          border-radius: 8px;       
+          border-radius: 8px;
+          text-decoration: none;
+
+        }
+
+     
+
+        // .create-new-account-button: hover{
+        //   background-color: darken(#323EBE, 20%);
+        //   }
+
+        .dev-card-login-button{
+          background-color: #dddeee;
+          color: #323ebe;
+          padding: 12px;
+          border-radius: 8px;
+          transition: 0.1s;
+          text-decoration: none;
+
+        }
+
+ 
+
+      }
+    
+
+    }
+
   }
-
-  
-
 }
+
 
 
 

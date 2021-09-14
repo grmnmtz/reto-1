@@ -1957,6 +1957,10 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 15%;
+  margin: 20px 0 0 0;
 }
 
 .publications .dev-card .dev-logo .rotated-dev-logo {
@@ -1965,6 +1969,81 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 45%;
+}
+
+.publications .dev-card .text-dev-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 14px 0 14px 0;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text .what-is-dev {
+  font-size: xx-large;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text .what-is-dev a {
+  text-decoration: none;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text .dev-a-place {
+  margin-bottom: 14px;
+}
+
+.publications .dev-card .text-dev-card .button-section-dev-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.publications .dev-card .text-dev-card .button-section-dev-card .create-new-account-button {
+  background-color: #323ebe;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.publications .dev-card .text-dev-card .button-section-dev-card .dev-card-login-button {
+  background-color: #dddeee;
+  color: #323ebe;
+  padding: 12px;
+  border-radius: 8px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  text-decoration: none;
 }
 
 .right-card-1 {
@@ -2568,6 +2647,10 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 15%;
+  margin: 20px 0 0 0;
 }
 
 .publications .dev-card .dev-logo .rotated-dev-logo {
@@ -2576,6 +2659,81 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 45%;
+}
+
+.publications .dev-card .text-dev-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 14px 0 14px 0;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text .what-is-dev {
+  font-size: xx-large;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text .what-is-dev a {
+  text-decoration: none;
+}
+
+.publications .dev-card .text-dev-card .dev-description-text .dev-a-place {
+  margin-bottom: 14px;
+}
+
+.publications .dev-card .text-dev-card .button-section-dev-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.publications .dev-card .text-dev-card .button-section-dev-card .create-new-account-button {
+  background-color: #323ebe;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.publications .dev-card .text-dev-card .button-section-dev-card .dev-card-login-button {
+  background-color: #dddeee;
+  color: #323ebe;
+  padding: 12px;
+  border-radius: 8px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  text-decoration: none;
 }
 
 .footer .footer-content {
