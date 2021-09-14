@@ -1919,6 +1919,54 @@ main {
   color: #090909;
 }
 
+.publications .dev-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  border: 0.1px solid #dbd6d6;
+  margin-bottom: 12px;
+  padding: 18px 0 18px 0;
+  background: #DDDEEE;
+  border: 1px solid #323EBE;
+}
+
+.publications .dev-card .dev-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.publications .dev-card .dev-logo .rotated-dev-logo {
+  rotate: "45";
+  border-radius: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 45%;
+}
+
 .right-card-1 {
   background-color: #f9f9f9;
   padding: 20px;
@@ -2480,6 +2528,54 @@ main {
 .publications .card .white-canvas .reactions-to-article .time-save-options .time-save-buttons li .save-button:hover {
   background: #bdbdbd;
   color: #090909;
+}
+
+.publications .dev-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  border: 0.1px solid #dbd6d6;
+  margin-bottom: 12px;
+  padding: 18px 0 18px 0;
+  background: #DDDEEE;
+  border: 1px solid #323EBE;
+}
+
+.publications .dev-card .dev-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.publications .dev-card .dev-logo .rotated-dev-logo {
+  rotate: "45";
+  border-radius: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 45%;
 }
 
 .footer .footer-content {

@@ -365,6 +365,7 @@ $testBorder : 0.5px solid black ;
 
       }
 
+ 
 
 
 
@@ -430,6 +431,28 @@ $testBorder : 0.5px solid black ;
 
    }
   }
+
+  .dev-card{
+    @include devMissionCardStyle;
+    background: #DDDEEE;
+    border: 1px solid #323EBE;
+
+    .dev-logo{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .rotated-dev-logo{
+        rotate: "45";
+        border-radius: 5%;
+        box-sizing: border-box;
+        width: 45%;
+      }
+    }
+
+  }
+
+  
+
 }
 
 
