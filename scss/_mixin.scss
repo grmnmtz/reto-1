@@ -41,3 +41,20 @@
   font-size: 16px;
   text-decoration: none;
 }
+
+@mixin devMissionCardStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 3%;
+  box-sizing: border-box;
+  width: 100%;
+  // border:$testBorder;
+  background: white;
+  border-radius: 5px;
+  border: 0.1px solid #dbd6d6;
+  margin-bottom: 12px;
+  padding: 18px 0 18px 0;
+
+}
