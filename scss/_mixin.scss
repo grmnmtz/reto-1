@@ -16,23 +16,22 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: left;
+  align-items: flex-start;
 }
 
 @mixin LBfontP() {
   // font-family: Arial;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1rem;
   text-decoration: none;
 }
 
 @mixin LBbtnP() {
-  // min-height: 40px;
-  // min-width: 220px;
-  padding: 10px 51px;
+  min-width: 100%;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
 }
 
 @mixin LBtitleF() {

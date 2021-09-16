@@ -33,7 +33,7 @@
       margin: 12px 0px;
       height: 40px;
       width: 420px;
-      transition-duration: 0.1s;
+      transition-duration: 0.3s;
     }
 
     .input-button {
@@ -95,7 +95,7 @@
 
 .main-header .navbar .left-items .search-form:focus {
   background-color: #ffffff;
-  border: 2px solid #4150f5;
+  border: 3px solid #4150f5;
   border-radius: none;
   outline: none;
 }

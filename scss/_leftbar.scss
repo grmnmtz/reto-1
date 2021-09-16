@@ -1,53 +1,35 @@
-//Aurora
-// .sidebar-left {
-//   // max-width: 300px;
-//   // height: 800px;
-//   flex: 1;
-//   //min-height: 700px;
-//   @include LBflexColumns();
-
-// }
-
 .left-card {
-  //padding-left: 90px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
+  min-width: 9%;
 }
 
 //Primera Tarjeta
 .LBcontIntro {
   background-color: white;
-  // border: solid 1px red;
-  // padding-top: 1px;
-  // min-height: 208px;
   border-radius: 10px;
   border: 1px solid rgb(230, 230, 230);
-  // border-radius: 10px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  // align-items: left;
-  width: 90%;
 }
 
 .LBcontHeadIntro {
-  // min-width: 80%;
-  // margin: 20px;
   padding: 16px 16px 0 16px;
-
-  // border: solid 1px pink;
+  min-width: 90%;
 }
 
 .LBintroTxt {
   @include LBfontP();
   line-height: 1.3;
   font-weight: 700;
-  font-size: 22px;
-  // line-height: 2px;
+  font-size: 1.5rem;
+  text-align: center;
+  min-width: 100%;
 }
 
 #LBIntroLink,
@@ -56,11 +38,11 @@
   color: #3b49df;
   line-height: 1.7;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.4rem;
+  min-width: 100%;
 }
 
 .LBcontBodyIntro {
-  // margin: 20px;
   font-size: 18px;
   padding: 20px;
   line-height: 1.4;
@@ -68,16 +50,10 @@
 }
 
 .LBcontBotonesIntro {
-  // min-height: 110px;
-  // min-width: 88px;
-  // @include LBflexColumns();
-  // justify-content: space-between;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
-  // justify-content: flex-start;
   padding: 0px 16px 0 16px;
 }
 
@@ -86,7 +62,7 @@
   color: white;
   @include LBbtnP();
   margin-bottom: 10px;
-  // margin-top: 5px;
+  padding: 10px;
 }
 
 #LBbtnAcount:hover {
@@ -95,8 +71,7 @@
 
 #LBbtnLogIn {
   @include LBbtnP();
-  // padding-left: 90px;
-  padding: 10px 100px;
+  padding: 10px;
   color: #3b49df;
   margin-bottom: 10px;
 }
@@ -105,9 +80,13 @@
   background-color: #f1efef;
 }
 
-// Segunda Tarjeta,
-// Tercera Tarjeta .LBcontDevCom {
-// }
+.LBcontDevCom {
+  min-width: 85%;
+}
+
+.LBcontOther {
+  min-width: 85%;
+}
 
 .LBcont1,
 .LBOcont0 {
@@ -130,26 +109,10 @@
 .LBOcont1,
 .LBOcont2,
 .LBOcont3 {
-  padding: 10px 120px 10px 10px;
-  //border: #323ebe solid 1px;
+  padding: 10px;
+  min-width: 100%;
   @include LBflexRows();
 }
-
-// #LBicon1,
-// #LBicon2,
-// #LBicon3,
-// #LBicon4,
-// #LBicon5,
-// #LBicon6,
-// #LBicon7,
-// #LBicon8,
-// #LBicon9,
-// #LBicon11,
-// #LBOicon1,
-// #LBOicon2,
-// #LBOicon3 {
-//   // margin-right: 10px;
-// }
 
 #LBicon10 {
   height: 24px;
@@ -180,7 +143,7 @@
 .LBcontRedS {
   @include LBflexRows();
   padding: 40px 0 40px 10px;
-  width: 100%;
+  min-width: 100%;
   height: auto;
   justify-content: flex-start;
   fill: #7c7a7a;
@@ -203,21 +166,18 @@
 .LBcontTags {
   @include LBflexColumns();
   justify-content: flex-start;
-  //border:#323ebe solid 1px;
-  width: 100%;
+  min-width: 100%;
 }
 
 .LBheadTags {
-  // @include LBfontP();
   font-size: 16px;
-  width: 100%;
+  min-width: 100%;
   padding-bottom: 10px;
 }
 
 .LBtags {
   @include LBflexColumns();
   justify-content: flex-start;
-
   width: 240px;
   height: 360px;
   overflow: scroll;
@@ -255,15 +215,13 @@
 .LBTagCont29,
 .LBTagCont30 {
   @include LBflexRows();
-  //border:solid black 1px;
-  width: 223px;
-  height: 40px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
-  padding: 20px 10px 20px 0px;
+  padding: 10px 10px;
   border-radius: 5px;
-  z-index: 2;
+  // overflow: hidden;
 }
 
 .LBTagBtn1,
@@ -363,12 +321,11 @@
   .LBTagBtn30 {
     text-align: center;
     padding: 5px 10px 5px 10px;
-    // width: 70px;
-    // height: 30px;
     background-color: #3b49df;
     color: white;
     border-radius: 5px;
     font-size: 14px;
+    // overflow: hidden;
   }
 }
 
@@ -409,23 +366,22 @@
 }
 
 .LBcontPub {
-  // @include LBflexColumns();
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 20px;
-  height: 300px;
-  width: 100%;
+  height: auto;
+  max-width: 90%;
   .LBPub {
     text-align: center;
-    font-size: 240px;
+    font-size: 1rem;
   }
 }
 
 .LBim1 {
-  height: 180px;
-  width: 240px;
+  height: auto;
+  max-width: 90%;
 }
 
 .LBcontPub:hover {
